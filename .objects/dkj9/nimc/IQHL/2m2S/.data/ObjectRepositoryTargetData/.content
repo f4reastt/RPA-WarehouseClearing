@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eLRTpf9agkuwls4cuiwfDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" CVScreenId="ebfebfe4-67d4-4daf-8628-8037e38b7c98" CvElementArea="853, 364, 28, 26" CvType="Button" DesignTimeRectangle="853, 364, 28, 27" ElementVisibilityArgument="Interactive" Guid="902e36be-aaaa-413d-964b-8ceb2d994437" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ebfebfe4-67d4-4daf-8628-8037e38b7c98" DesignTimeRectangle="397, 365, 458, 24" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/ctxtP_IFILE' /&gt;" Guid="a67c99f1-3d11-42da-928d-cdb2bb8e7359" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="23e2b66ff256d6eee427ef6950c1ca5d.png" xmlns="">0W9uD-lzCBEi6ArmKlv0i5A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HMar5_KLKk6DgczRtel3MQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" CVScreenId="5a946f2c-af67-4ddc-bd8e-b664f88ff971" CvElementArea="75, 398, 22, 22" CvTextArea="101, 402, 20, 13" CvTextArgument="PC" CvType="RadioButton" DesignTimeRectangle="76, 399, 230, 20" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/radP_RBA' /&gt;" Guid="60a21d1d-3cde-4fae-a977-e59a4392a9bd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5a946f2c-af67-4ddc-bd8e-b664f88ff971" DesignTimeRectangle="76, 364, 320, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/txt%_P_IFILE_%_APP_%-TEXT' /&gt;" Guid="c7d0a087-dab2-4c40-8842-bd4e80fd86b9" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="27bebae1ee3a344cdf89bc8e45d42e4c.png" xmlns="">0R9TOrJ4SHkOW0sRUijGkug</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

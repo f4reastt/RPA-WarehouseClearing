@@ -1,0 +1,12 @@
+﻿{
+  "Name": "S4HANA",
+  "Type": "App",
+  "Id": "dkj98rXEC0OMcwPSajNLpw",
+  "Reference": "A8W7ST2sRku1x2tN474ZNQ/dkj98rXEC0OMcwPSajNLpw",
+  "Created": "2025-11-20T13:01:52.6026409Z",
+  "Updated": "2025-11-20T13:01:52.6026409Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

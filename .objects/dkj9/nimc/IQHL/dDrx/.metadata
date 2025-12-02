@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Interface Tool - Generi…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "dDrxVS1KLUG8lgVO-P7uuw",
+  "Reference": "A8W7ST2sRku1x2tN474ZNQ/dDrxVS1KLUG8lgVO-P7uuw",
+  "ParentRef": "A8W7ST2sRku1x2tN474ZNQ/IQHLQv3nrEeMhqzZMUoJqQ",
+  "Created": "2025-11-20T13:01:52.9274273Z",
+  "Updated": "2025-11-20T13:01:52.9274273Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

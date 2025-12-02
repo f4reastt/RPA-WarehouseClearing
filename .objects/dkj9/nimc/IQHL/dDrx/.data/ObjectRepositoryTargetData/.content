@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LAIYsPf550W7HuBU8YJtVQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" DesignTimeRectangle="336, 323, 176, 176" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl ui5-class='sap.m.GenericTile' ui5p-header='Interface Tool - Generic Upload' /&gt;" Guid="5a0fa165-175f-4a3a-bd59-db69cd5a6e37" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8563cff9-e433-4655-aaca-7e742c183764" DesignTimeRectangle="354, 291, 1258, 16" FullSelectorArgument="&lt;webctrl id='eshCompGenId_2-SearchCountBreadcrumbs-Label' /&gt;" Guid="229aaab3-07b2-4837-8ab4-4ce8a0c42840" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ab5a0579b55c732d13d41471cb36060c.png" xmlns="">091-7TEGJaUSg1v9Fcs3Jrg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

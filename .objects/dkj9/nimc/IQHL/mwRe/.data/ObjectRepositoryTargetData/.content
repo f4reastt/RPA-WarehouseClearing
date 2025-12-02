@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="au-neXUkYkqrjT2hq7ghgQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" DesignTimeRectangle="1163, 666, 26, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[1]' /&gt;&lt;webctrl sapweb-lsid='ls-inputfieldhelpbutton' /&gt;" Guid="c5e837ed-e678-44c1-816c-fa70c77164a9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SAP' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b4a8d1dce444d1ccd137daf5f07ab26c.png" xmlns="">0BX4jNwUYQ0iW8OyjRpO1tQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
