@@ -103,7 +103,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1287,811.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1281,671" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -215,7 +215,7 @@
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NCheckState DisplayName="Check App State 'Pick an account'" Exists="[S1Output]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,617" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V5">
+                  <uix:NCheckState DelayBefore="3" DisplayName="Check App State 'Pick an account'" Exists="[S1Output]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,617" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V5">
                     <uix:NCheckState.IfExists>
                       <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_4">
                         <sap:WorkflowViewStateService.ViewState>
@@ -256,7 +256,7 @@
               </ActivityFunc>
             </uix:NApplicationCard.OCREngine>
             <uix:NApplicationCard.TargetApp>
-              <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="oT3mbQmRlEatU3w5Hhg5TQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA6SURBVDhPY/juJ/cfF2ZgYGCo38XwHxcGyTOgaxo1YCAMoBwsef8fJ2ZgYPi/k+E/LjxqwOAxgEIAAE2e5IMOgF4vAAAAAElFTkSuQmCC" InformativeScreenshot="1230db04cef88535ead983f4050411cb.jpg" Reference="A8W7ST2sRku1x2tN474ZNQ/-tSCc8sEkk6PrXF50BoVgQ" Selector="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" Url="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=2793995e-0a7d-40d7-bd35-6968ba142197&amp;scope=openid%20profile%20offline_access&amp;redirect_uri=https%3A%2F%2Fmyapps.microsoft.com%2F&amp;client-request-id=51b6e817-f6cc-4030-94ed-b0c58d542b1d&amp;response_mode=fragment&amp;response_type=code&amp;x-client-SKU=msal.js.browser&amp;x-client-VER=2.37.1&amp;client_info=1&amp;code_challenge=_QlR8IoX3MQR1tUeAzs6RmQP-mjJr9NI98AhmepJVlw&amp;code_challenge_method=S256&amp;nonce=146d8c3f-86ac-4c28-b36f-ad9510527525&amp;state=eyJpZCI6IjUxZmUzMjIyLTE5MGUtNGQ0OS1hOGY1LWNlZTUwMGFmZjM3NSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D" Version="V2">
+              <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="08Ot1UHQp0i8S8drapaZaw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA6SURBVDhPY/juJ/cfF2ZgYGCo38XwHxcGyTOgaxo1YCAMoBwsef8fJ2ZgYPi/k+E/LjxqwOAxgEIAAE2e5IMOgF4vAAAAAElFTkSuQmCC" InformativeScreenshot="aa24e8076066001c5d42d51d88395bba.jpg" Reference="A8W7ST2sRku1x2tN474ZNQ/-tSCc8sEkk6PrXF50BoVgQ" Selector="&lt;html app='chrome.exe' title='My Apps' /&gt;" Url="https://myapps.microsoft.com/#code=1.AQ8AZ6XDj-gelEmAnEn1DNttSF6Zkyd9CtdAvTVpaLoUIZcPAIcPAA.BQABBAIAAAADAOz_BQD0_0V2b1N0c0FydGlmYWN0cwIAAAAAAAGB-sHeWTqUaNimejMCcp7DVi_Xw474mseuwrWqRDzW4s6DfBtbBr3e_trb8soHVKo6aBLhpxfokw6AD_poHNU2RGEsGM9mYHv4DKvNhd4xnrz8iuA5DOAZvmbJelj_XuM2qCo_0UBqLT8ANUKIpzLu4dG9WORsGLGMrmmibP6j4TXB4L0YBh1hnnYTK1NXjH1T8Cegx9TNPxicwMnVqVH7gxrNC8g3uSxRJBspFPukC7RIUVfA88XWO_4Pg6iIrrT3IaneosockL7G2ccBL1FqgCozezFzZyMi46jOi0i1VKHYUpLlADAglgjTD_-r3zEwtet0vzoPYVRx_OAolNUZu0nAqND5XQqsxLiwAmo8COKed3j04bksCeLf2vfJGekQBeHttQ8QxszgzYmkZ-Q26PfV7cAOJjKDM7us3IZM1wm0exRFKQgwiSpqAikVQcS2ZXioiVDPBPbCA7SGblLMCSMiX0mdworVUoeTig5Ej75q1Uvs7-ujPhm_NYXYWzUWMop23mlwmyt5Ca03HRf9nrMA1LEpoU05jwTKCyOhP17MsgDS3aUcfvJszFBQEDPNsFs_TtoYzQ_wImyTBAR5bTpm6QxxPKK97jpNWUTgEYGjlwqKbFBH9RyQco28-NgcNGrJ6oPTyMagBOxzLSt_H17sNnU3ne2Omyom62u8No4QG5IjbTxngMdFa3EUlHNOA3gHETzGTztJEsFspP_-zq58t5fnbAMrNUdp73J4qMspX_s2MpwmO-yHUhUbHiEGGnRXdObKtjqfzPSATI6XWSt-WgzGiqRS8tnd1ghD7q7jc2-JsgHJW1guNYKWdyBLqQ430rBr-R0-IJjvffBReh4Un6uBvSREYSrE-aElcPhtKUuWZmPCqd9ATEAyo-67DDYBoYZy7CA5kfPVuTGJJYiNOqI8NAEKW57eRe_BN-6cQxA28ohiTaEUoQNrjH9y3VuyEwDH7c5hPbXChK1EF5w01OTv6x_uNQ4lAld1PNiYp-LeH7BpZVUO9lFFRdnbyU_uXXO8YFx8Yn9kqVGkPOxAC5j1TsQFoesakn2SWC2n4YXtAPrxIdwjOWHDH-J6yu44UjwlxQDPpxtLiCXuYk16pPLOi8Rh3lXzz9hlPZFTz-bwKs-a_43G9p8wi8mu0tfc2haR4ObArKKXSIPCHg4Hr8TSqxWwt2TZZOu4l6lIv_2U82aKVSjYSr_bVYG8M6BJ8Bwd3luQVQhuiu3kak6Midrm61qXuduayo224kENKwwuKc0KJ3cK3z0QQbQswp6RVGXGTtdF6u3lRUPI2a2_jmGBPVz1Mf4EPNX3081eMK9hhZdpbqAKwzIWJxB2ezXP8VcdJKXlwPIp7A&amp;client_info=eyJ1aWQiOiI2MDg1N2JmZC05ODNkLTQwNDgtYjI5OC0xN2YzNjQxNzQ0OGIiLCJ1dGlkIjoiOGZjM2E1NjctMWVlOC00OTk0LTgwOWMtNDlmNTBjZGI2ZDQ4In0&amp;state=eyJpZCI6IjUxZmUzMjIyLTE5MGUtNGQ0OS1hOGY1LWNlZTUwMGFmZjM3NSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3d&amp;session_state=0010f7da-954c-9a54-a2ff-8961ab02a677" Version="V2">
                 <uix:TargetApp.Arguments>
                   <InArgument x:TypeArguments="x:String" />
                 </uix:TargetApp.Arguments>
@@ -274,10 +274,7 @@
           </uix:NApplicationCard>
         </Sequence>
         <FlowStep.Next>
-          <FlowSwitch x:TypeArguments="x:Boolean" Default="{x:Reference __ReferenceID1}" x:Name="__ReferenceID3" DisplayName="Need to Login?" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_3">
-            <FlowSwitch.Expression>
-              <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="S1Output = True" />
-            </FlowSwitch.Expression>
+          <FlowSwitch x:TypeArguments="x:Boolean" Default="{x:Reference __ReferenceID1}" x:Name="__ReferenceID3" DisplayName="Need to Login?" Expression="[S1Output = True]" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <av:Point x:Key="ShapeLocation">260,260</av:Point>
@@ -382,10 +379,7 @@
                 </uix:NApplicationCard>
               </Sequence>
               <FlowStep.Next>
-                <FlowSwitch x:TypeArguments="x:Boolean" Default="{x:Reference __ReferenceID1}" x:Name="__ReferenceID5" DisplayName="Need to answer survey?" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_5">
-                  <FlowSwitch.Expression>
-                    <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="S2Output = True" />
-                  </FlowSwitch.Expression>
+                <FlowSwitch x:TypeArguments="x:Boolean" Default="{x:Reference __ReferenceID1}" x:Name="__ReferenceID5" DisplayName="Need to answer survey?" Expression="[S2Output = True]" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <av:Point x:Key="ShapeLocation">260,520</av:Point>

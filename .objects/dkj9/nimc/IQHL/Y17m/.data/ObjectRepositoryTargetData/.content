@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OFCp7DALTk-Jc5Fs74f3vA" Reference="A8W7ST2sRku1x2tN474ZNQ/Y17mfGb6BkWRIpLt9y70Zw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" DesignTimeRectangle="152, 41, 505, 34" ElementType="Toolbar" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='1001' title='Address: C:\Users\najmekk\Desktop\MAG\Warehouse Recon\RPA Test- *' /&gt;" Guid="4ed327fa-bcbf-48f5-8580-9167ceb01f95" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="280" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="72b2771b080ed84caf42351f47966a8a.png" xmlns="">0b4a90J5Fu0SuEKDy4UJ2lg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

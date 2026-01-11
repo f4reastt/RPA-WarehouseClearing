@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="gxxwBywfQEe6cWHSlV47BQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="5Xd4yPmF_UGvbl1605eqkQ" Reference="A8W7ST2sRku1x2tN474ZNQ/J_4kzEeeDUuzLlT4_IDTTA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myapps.microsoft.com" CVScreenId="3c5d9f2b-2cf6-46ec-bb79-53520b292560" CvElementArea="1205, 387, 24, 24" CvType="CloseButton" DesignTimeRectangle="1209, 392, 16, 16" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ModalFocusTrapZone100' tag='I' /&gt;" Guid="b07fc0be-a4cb-4b6c-97a5-3757080d962d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My Apps' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myapps.microsoft.com" CVScreenId="3c5d9f2b-2cf6-46ec-bb79-53520b292560" CvElementArea="1205, 387, 24, 24" CvType="CloseButton" DesignTimeRectangle="1205, 387, 24, 23" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ModalFocusTrapZone100' tag='I' /&gt;" Guid="b07fc0be-a4cb-4b6c-97a5-3757080d962d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My Apps' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
           <Target CVScreenId="3c5d9f2b-2cf6-46ec-bb79-53520b292560" CvElementArea="1205, 387, 24, 24" CvTextArea="710, 390, 200, 18" CvTextArgument="Tell us what you think" CvType="CloseButton" DesignTimeRectangle="688, 369, 560, 63" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='heading' tag='DIV' type='' class='ms-Dialog-title title-415' aaname='Tell us what you think' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Tell us what you think' /&gt;" Guid="e51d9437-f6f7-4f69-bb31-70de0d6d0a3b" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="9fe9ccffd8b194e12c70b1daf1f5c9b5.png" xmlns="">0XCRU4sWp30yi6IlvbyJvaQ</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="33c43974bff419b5aec8cdc56ea22b7c.png" xmlns="">08sEWm-_QI0uUaKFJpuc9Ng</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

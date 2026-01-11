@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9Bk8XeRkyUyfnSkNU4V3Mg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" CVScreenId="a58a5092-fb2f-4b56-ac4c-02c95aa82e71" CvTextArea="706, 547, 307, 17" CvTextArgument="Duplicate File Name. Do you want to continue?" CvType="Text" DesignTimeRectangle="707, 547, 306, 16" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='FONT' /&gt;" Guid="e5e04ad9-8c92-4a1a-959b-78563c0fafc3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a58a5092-fb2f-4b56-ac4c-02c95aa82e71" CvTextArea="656, 487, 65, 17" CvTextArgument="Warning" CvType="Text" DesignTimeRectangle="656, 487, 64, 17" ElementType="Text" Guid="29bb7fae-d6ce-4563-824f-65ac000f525c" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="217b7427e13fa46911c8d0f142e06408.png" xmlns="">0pFkXPQnqGEqUx4coRIrp9g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

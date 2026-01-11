@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cC-FewZ9gki1padxLwb-4w" Reference="A8W7ST2sRku1x2tN474ZNQ/FJxsNPxrSEGz4TI7-gzbCA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="24ad9369-3e52-4c98-b0ae-bc706dbe66e7" DesignTimeRectangle="58, 283, 133, 16" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-colname='IOBJECTID' sapweb-tablerow='0' /&gt;&lt;webctrl sapweb-lsclass='UCF_SuggestBox' tableCol='1' tableRow='1' aaname='*' /&gt;" Guid="19b4ebf8-b839-465b-a756-4f6c3b6375a1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Tool - Upload Template Program' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="e75b8e1dbcb6161c36928496aa8da86a.png" xmlns="">0ZY4zSpeaU0yjOc5qOO0FZw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

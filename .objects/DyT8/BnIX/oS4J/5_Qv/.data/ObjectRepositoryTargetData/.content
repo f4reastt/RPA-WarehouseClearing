@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lhSm8-0v1UqDEsuAYOisHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="aa770c85-443b-4fd6-b400-5ec5d2a1ef84" CvTextArea="25, 77, 78, 14" CvTextArgument="Edit Address" CvType="Text" DesignTimeRectangle="25, 77, 78, 14" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="77b92e77-2175-4876-b90e-1ebffca575e2" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='Microsoft.UI.Content.PopupWindowSiteBridge' title='PopupHost' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="30f258c0-e6cc-459d-b823-6b791da7186c" CvTextArea="24, 46, 133, 16" CvTextArgument="Copy Address as Text" CvType="Text" DesignTimeRectangle="24, 46, 133, 16" ElementType="Text" Guid="5a938fdc-0361-41c4-9e71-53a5a6dd381e" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="01067198b9baf9f5baad25a0d5ab0d26.png" xmlns="">010EzZsoNB0WS5Sci1EfJtg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

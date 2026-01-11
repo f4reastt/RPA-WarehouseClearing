@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Run Actual Posting",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "gqrcp0NJQkiIR7TuTgfvPQ",
+  "Reference": "A8W7ST2sRku1x2tN474ZNQ/gqrcp0NJQkiIR7TuTgfvPQ",
+  "ParentRef": "A8W7ST2sRku1x2tN474ZNQ/IQHLQv3nrEeMhqzZMUoJqQ",
+  "Created": "2026-01-11T16:18:59.3779367Z",
+  "Updated": "2026-01-11T16:18:59.3779367Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

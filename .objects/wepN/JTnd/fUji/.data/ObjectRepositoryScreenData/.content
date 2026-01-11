@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="bxO8bKynMkK37aaTSU2Rdw" Reference="A8W7ST2sRku1x2tN474ZNQ/fUjiH5pen0yXTKrUSW7hvg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 960, 540" ContentHash="0_f8MGuAl0W_9v8GbkhNfw" FilePath="C:\Program Files\Google\Chrome\Application\chrome.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALCSURBVDhPZdPNTxNBGAbwvWkkUYKRKEFd+QoU2y7bagj9YFpQQCEQ9WQiJkbjyT9AELx6YouNVL5E/IyJRw9GhFKlQGPC6ombJaUtRYEW0WiY7Txmh0oqvMkvz0z2fSebzawg7KjvxEoSLotn2W0JL7ut+Oa2soTLqiaIZWSJSOLO/u0KEyk3QaxKwmUBRyxsicjIFq+VEXfKit67azhOZHWpVuZDcd5chbizivF0SCyWJWo3q/8dEndKSswhIVvULiH6L20mtmgzYdFuBk+bCRGbSeHD0ss2cfS6gz+M2s0sYjNh6VIj/sx9QnQxhR+/GVjSj7TaAi0ks3RIZtpsFdKhKkZnJCJIz9tGGnzNmHeZEakxInaxgQ/eHPmJU3dT3GXfBmIrKWhzjaAzRmgzJmgzRkanT3oE85NWVXrainu3HFiorsSvwDiae9Yhd6cgdye33Xi0AZYKQZs2ZFQwbboiLBgft8A42syq+89hts6MWDINc9caJ3UlIfHc2ke/J0GDZdCCpYwGS0GnSiGcfHQelRnX7hAWiSRhvLMGY+cqjJ1rW2u+X+PfQ5sqyjjBCYahprBhuIlVDDXBMNSEUPwLrg6uw9Cxuq2yYxUXvCmwlbfQPh7LOAr6sVAVKvoblPKBBpQPNHLuF+2YT6yjzZtE+e0Vrn1wHfOJH6Ch06CBAtDAEWgfdAUjQrmvnpT5zqDs4Vn8S9ezKxj7GuSvrB82G/uM3jfnQQP50AL5oJOHOPgPb13tkr56pbivjpX01bOSB/XQFT+oYzp97RxwYOHdYWiTB0En80D9eUhP5m1dJL1EheQWeV1qkdeNYq8benL3XTyHX5dC8x9g1L8fdIJT4c/9/3/QDxF7iUf0EIi925jdVwM6kZOxD3Q8x7NrOLtEhYiiQh4fV2rVYz1O9up1ITbH94Q33+/x0LG9ZGf/XwPpJPoqab+xAAAAAElFTkSuQmCC" Reference="A8W7ST2sRku1x2tN474ZNQ/fUjiH5pen0yXTKrUSW7hvg" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.Url>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Url>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="0ca67423748b7513def7bdd41c42bee2.png" xmlns="">0uPklAxESmUSUqVjYpCSb8A</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

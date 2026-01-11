@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="saNZls2dokG49rM1scd20Q" Reference="A8W7ST2sRku1x2tN474ZNQ/c24EDEf8CEKyjvSkcv2XCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="152, 41, 505, 34" ElementType="Toolbar" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='1001' title='Address: C:\Users\najmekk\Desktop\MAG\Warehouse Recon\RPA Test- *' /&gt;" Guid="33634dea-ecdc-46f9-8014-0a1eb35f91c7" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <TargetAnchorable.RegionOffset>
+        <RegionOffset Position="Center" X="50" />
+      </TargetAnchorable.RegionOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="72b2771b080ed84caf42351f47966a8a.png" xmlns="">0rGP72PkCxEuAobF1jl51sw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

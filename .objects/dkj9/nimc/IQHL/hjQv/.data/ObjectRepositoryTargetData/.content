@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="V8hf571GBEGQGHCgO4VSoA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="130ec77c-104c-4d3b-968a-83900d381207" DesignTimeRectangle="1817, 1007, 63, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/tbar[1]/btn[8]' /&gt;" Guid="777d6a4a-9070-4274-baf3-6555c403026d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEMAAAAeCAYAAAB32qNaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMESURBVGhD7Zm/a9tAFMezNkv/D/8jJWP+g6wZavCWsWQrdEkhEDK5QwYvxR4KHgwxBIrx0MQtwcKQCBcjlDZCqn/o5Ej2t7yTTj7rnMZ1S0nje/CF5H6+97l3T7a8AW2pbWQb1tnmYHz66uPF2ys8L3zGZr71ZEXxUZwUr2wpDOoQEJ69vFAWeEoS8VG8MpAUBpHKTloHUdwKDKL01DMiK4qX4lZgZAeukzQMSRqGJA1D0tIw9jpROjhrRkMd/z9K2PIwhmMYVjCn8gd1/D/XmQ82+bOD+W0YXsdS+h6FGgH373HAOHZg3AGYjFE6prY2DnrTdE4u38J2rQ9jmO4Jz3JR2BdrtFFoBvBoDdFve3j1hvocGLwlQFHslwQP21GvsD/AHo3Z76HUDXnGcAvGqNeuVd8TCVsahmozB7c+BmDU5HjYOfXjv7+72Kb+kz5s+n8Swbh0UbXi9VjvWwzqfBwvN4lg0vVzIjByvkqfiH8NY6tyi6odg7dNF6UzC1vSYTBnhPL5CCYHHaJ6osa3GozJFCyQ5eMoHdeeh3YXoMizpIWCkc0sC3X+dYAC7KHOM2aKi1pb2fshGLJ/s2si5oxRSrIv14yBe0ZvwR4rwLj3mggdujCTtLRb3bS9yNNikVGAwvEQ5QTevFaA8X4Ab7bJnN0Xg7C/BOMaRZ6uUzCekhHqlfikRWYwu49S05V0g92lM2N2yruXYexwBobZFPNngBtz+7k4qiz+MipsaRjqNZmCdW9jB7/EDjLzBjlRI6iYUQDipKhmdDyULkcwh1PYRgxXzE1rhh2C3YVo8IInrhStN+b1BKIoJjAEbN5/5WAnf4WildSMHz6qTQ91KwQLAhQP1fhWg7HIbAe5ShJsMMLr5PT20mxweBHdrg1gSu9R2DBA9bTLC+hmvqM+TZwBDt7FJ03r2wKAH6B8luyXwOBPs+TmcB+ojZ4mVjR7mkwi2F0XBf6EUiXsQRjrIA1DkoYhScOQpMDQr/0kGPqFsARD/1QgwRBA9I9I2rhpGJL9BFfcH6FazoDYAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="130ec77c-104c-4d3b-968a-83900d381207" DesignTimeRectangle="8, 1000, 1920, 40" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/sbar' /&gt;" Guid="e4efbfe9-3fef-4177-9972-61937883785e" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2b26e3a2e2838624d8cf5e303644c9bc.png" xmlns="">0fFcMxSTyIUC3Qyk_T4NULg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

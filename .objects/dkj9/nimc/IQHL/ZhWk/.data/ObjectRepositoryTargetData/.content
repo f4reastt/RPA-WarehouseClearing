@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dNyvQDvTZ0qAIdfFcGnOzw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="24ad9369-3e52-4c98-b0ae-bc706dbe66e7" DesignTimeRectangle="56, 133, 44, 44" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='backBtn' /&gt;" Guid="bef4facd-dfcc-4c69-a5fe-e5028c609813" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Tool - Upload Template Program' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dac3f89c66ff326c998167359008f3b5.png" xmlns="">0jMuGOdw6cEq72GeIVvc2wg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

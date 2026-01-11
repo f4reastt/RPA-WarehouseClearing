@@ -1,0 +1,13 @@
+﻿{
+  "Name": "RPA Test- Zif Upload - File Explorer",
+  "Type": "Screen",
+  "Id": "oS4J_wUSKEifhRynoIH5tA",
+  "Reference": "A8W7ST2sRku1x2tN474ZNQ/oS4J_wUSKEifhRynoIH5tA",
+  "ParentRef": "A8W7ST2sRku1x2tN474ZNQ/BnIXOjcixUGj8HysoyDaMw",
+  "Created": "2026-01-11T17:26:52.4972248Z",
+  "Updated": "2026-01-11T17:26:52.4972248Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Execute Emphasized",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "hjQvJIQtf0-L5r1oWxWZJw",
+  "Reference": "A8W7ST2sRku1x2tN474ZNQ/hjQvJIQtf0-L5r1oWxWZJw",
+  "ParentRef": "A8W7ST2sRku1x2tN474ZNQ/IQHLQv3nrEeMhqzZMUoJqQ",
+  "Created": "2026-01-11T16:14:42.577936Z",
+  "Updated": "2026-01-11T16:14:42.577936Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

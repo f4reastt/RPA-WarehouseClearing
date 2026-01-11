@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="P_NqgMHCLE2JthJyfO-zJw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="d264242d-d466-4a13-ba48-2c226c83b41d" CvElementArea="123, 190, 130, 29" CvTextArea="129, 198, 119, 16" CvTextArgument="Run Actual Posting" CvType="Button" DesignTimeRectangle="125, 192, 126, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/tbar[1]/btn[9]' /&gt;" Guid="aca2dfe8-ce19-4df5-8ef9-ff45952f571a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Tool - Upload Template Program' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d264242d-d466-4a13-ba48-2c226c83b41d" DesignTimeRectangle="259, 192, 26, 26" ElementType="Button" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/tbar[1]/btn[28]' /&gt;" Guid="2f79da58-5b4f-41cc-aec8-724391d8a41e" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="93e98f0e93cec5b9d03c9b284fd4abbc.png" xmlns="">0RP21rM3XdEKOLb0Ia2vkng</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

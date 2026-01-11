@@ -93,13 +93,13 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="1281,1742" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="1281,1670" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1719" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1647" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" InteractionMode="DebuggerApi" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -112,7 +112,7 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'email'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'email'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_6" InUiElement="{x:Null}" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="login.microsoftonline.com/common/oauth2/v2.0/authorize" ContentHash="Jt5mPrcC5U2Grzqs1m9PXw" DesignTimeRectangle="748, 526, 440, 72" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aria-role='button' tag='DIV' type='' class='table' aaname='              ' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Finance.Automation@malaysiaairlines.com' /&gt;" Guid="5975252a-ef24-4613-9e93-ec14e44b993d" InformativeScreenshot="d125e29604594803558a51d748ca86d3.png" Reference="A8W7ST2sRku1x2tN474ZNQ/k6JXamT3xU-IbxPwG-EqwQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -123,7 +123,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Enter password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Text="[&quot;Airlines@344!&quot; + &quot;[k(enter)]&quot;]" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Enter password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" SecureText="{x:Null}" Text="[&quot;Airlines@344!&quot; + &quot;[k(enter)]&quot;]" Timeout="{x:Null}" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="login.microsoftonline.com/common/oauth2/v2.0/authorize" CVScreenId="d9d673bc-9555-4df9-9343-1cb4d816b663" ContentHash="6eqkLPbTzkCLbvds35T1Rg" CvElementArea="791, 495, 352, 36" CvType="InputBox" DesignTimeRectangle="794, 495, 348, 36" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='i0118' tag='INPUT' type='password' class='form-control input ext-input text-box ext-text-box show-reveal-password ext-show-reveal-password' placeholder='Password' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c7e1d4d9-e1ec-4bca-a69a-d8ecbefa46ca" InformativeScreenshot="d7f662132d72fb9dc033b57453f20213.png" Reference="A8W7ST2sRku1x2tN474ZNQ/ntLmsAmTEkuU6nu_r4o1ug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -134,7 +134,7 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NCheckState DisplayName="Check App State 'Stay signed in'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,843" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V5">
+            <uix:NCheckState ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check App State 'Stay signed in'" Exists="{x:Null}" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,843" sap2010:WorkflowViewState.IdRef="NCheckState_1" InUiElement="{x:Null}" OutUiElement="{x:Null}" Result="{x:Null}" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Timeout="{x:Null}" Version="V5">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,451" sap2010:WorkflowViewState.IdRef="Sequence_4">
                   <sap:WorkflowViewStateService.ViewState>
@@ -142,7 +142,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Checkbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V5">
+                  <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Checkbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_8" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="login.microsoftonline.com/common/login" CVScreenId="0b429c71-9daf-4c69-9427-1055c20f2507" ContentHash="f_RBWsLIlUeQY98CfV22Gg" CvElementArea="792, 553, 24, 23" CvType="CheckBox" DesignTimeRectangle="794, 555, 20, 20" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='KmsiCheckboxField' tag='INPUT' type='checkbox' class='' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="657a8a62-195f-473a-b48f-1983152c1a42" InformativeScreenshot="08a945acda8744530c75d9b487d4b989.png" Reference="A8W7ST2sRku1x2tN474ZNQ/Pr_buTuia0S-6bH9JvIpwQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -153,7 +153,7 @@
                       </uix:TargetAnchorable>
                     </uix:NClick.Target>
                   </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Yes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V5">
+                  <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Yes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_7" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="login.microsoftonline.com/common/login" CVScreenId="0b429c71-9daf-4c69-9427-1055c20f2507" ContentHash="NWgL2FSkz0iDwijqZljXRg" CvElementArea="1033, 588, 114, 38" CvTextArea="1077, 600, 25, 14" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="1036, 591, 108, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='idSIButton9' tag='INPUT' /&gt;" Guid="efdd0bb4-74ec-45ec-904e-c638715afafc" InformativeScreenshot="4b5f37286f09a4600c79cb3b4dee8d70.png" Reference="A8W7ST2sRku1x2tN474ZNQ/SOzuMgfVl0aG1QKf8G1H6A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -185,7 +185,7 @@
                 </uix:TargetAnchorable>
               </uix:NCheckState.Target>
             </uix:NCheckState>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,170" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Login Process Complete&quot;]" />
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,170" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="{x:Null}" Message="[&quot;Login Process Complete&quot;]" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>

@@ -91,29 +91,29 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="answerSurvey" sap:VirtualizedContainerService.HintSize="1287,811.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="answerSurvey" sap:VirtualizedContainerService.HintSize="1281,649" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,622" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,626" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,428" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,432" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Starting answerSurvey Sequence&quot;]" />
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Starting answerSurvey Sequence&quot;]" />
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Tell us what you think'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="myapps.microsoft.com" CVScreenId="3c5d9f2b-2cf6-46ec-bb79-53520b292560" ContentHash="gxxwBywfQEe6cWHSlV47BQ" CvElementArea="1205, 387, 24, 24" CvType="CloseButton" DesignTimeRectangle="1209, 392, 16, 16" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ModalFocusTrapZone100' tag='I' /&gt;" Guid="b07fc0be-a4cb-4b6c-97a5-3757080d962d" InformativeScreenshot="9fe9ccffd8b194e12c70b1daf1f5c9b5.png" Reference="A8W7ST2sRku1x2tN474ZNQ/J_4kzEeeDUuzLlT4_IDTTA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My Apps' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                <uix:TargetAnchorable BrowserURL="myapps.microsoft.com" CVScreenId="3c5d9f2b-2cf6-46ec-bb79-53520b292560" ContentHash="5Xd4yPmF_UGvbl1605eqkQ" CvElementArea="1205, 387, 24, 24" CvType="CloseButton" DesignTimeRectangle="1205, 387, 24, 23" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ModalFocusTrapZone100' tag='I' /&gt;" Guid="b07fc0be-a4cb-4b6c-97a5-3757080d962d" InformativeScreenshot="33c43974bff419b5aec8cdc56ea22b7c.png" Reference="A8W7ST2sRku1x2tN474ZNQ/J_4kzEeeDUuzLlT4_IDTTA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My Apps' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="3c5d9f2b-2cf6-46ec-bb79-53520b292560" CvElementArea="1205, 387, 24, 24" CvTextArea="710, 390, 200, 18" CvTextArgument="Tell us what you think" CvType="CloseButton" DesignTimeRectangle="688, 369, 560, 63" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='heading' tag='DIV' type='' class='ms-Dialog-title title-415' aaname='Tell us what you think' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Tell us what you think' /&gt;" Guid="e51d9437-f6f7-4f69-bb31-70de0d6d0a3b" SearchSteps="FuzzySelector, CV" />

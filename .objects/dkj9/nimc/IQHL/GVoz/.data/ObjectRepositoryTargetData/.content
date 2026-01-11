@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-NwrKSw4q0uFrqiUzlmqHQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" CVScreenId="a58a5092-fb2f-4b56-ac4c-02c95aa82e71" DesignTimeRectangle="699, 662, 150, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[1]/usr/btnBUTTON_1' /&gt;" Guid="d14988e8-abe6-4fd0-a9f8-4c82de232ef9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a11ef98f7430c3142af8f485be1a40b8.png" xmlns="">0VRCUFMI9WkO_NqtcT3ZwPw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
