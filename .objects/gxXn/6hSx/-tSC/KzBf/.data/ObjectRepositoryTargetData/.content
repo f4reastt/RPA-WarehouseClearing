@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="n0S0O_1dB0WEBDPYovM3RA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myapps.microsoft.com" CVScreenId="3c5d9f2b-2cf6-46ec-bb79-53520b292560" CvTextArea="711, 440, 353, 13" CvTextArgument="How likely are you to recommend My Apps to others? *" CvType="Text" DesignTimeRectangle="712, 432, 512, 29" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='ChoiceGroupLabel261' tag='LABEL' /&gt;" Guid="b6420b94-4718-48a3-8eb3-aa06fe2cf551" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My Apps' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3c5d9f2b-2cf6-46ec-bb79-53520b292560" CvElementArea="1205, 387, 24, 24" CvTextArea="710, 390, 200, 18" CvTextArgument="Tell us what you think" CvType="CloseButton" DesignTimeRectangle="688, 369, 560, 63" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='heading' tag='DIV' type='' class='ms-Dialog-title title-415' aaname='Tell us what you think' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Tell us what you think' /&gt;" Guid="3b6e1559-7346-49b2-b433-398383df6968" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ee8b08d47e31d30e45eebb5db6860a7e.png" xmlns="">0OzzmUFNhwUSTGpiWDlQ_pg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

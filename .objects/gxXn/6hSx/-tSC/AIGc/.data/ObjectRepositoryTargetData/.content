@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cIWL8qWSLk2ibZqT7GaHjw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.microsoftonline.com/common/oauth2/v2.0/authorize" CVScreenId="6901b452-ad7c-4fc7-8aed-c4760d385b03" CvType="AnyWordGroup" DesignTimeRectangle="852, 549, 280, 16" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl isleaf='1' parentid='tilesHolder' tag='DIV' /&gt;" Guid="0c2122ed-a286-4ce4-b8b2-ab4efdad4f5d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6901b452-ad7c-4fc7-8aed-c4760d385b03" CvElementArea="1118, 543, 22, 29" CvType="Icon" DesignTimeRectangle="1121, 550, 16, 16" ElementType="Icon" FullSelectorArgument="&lt;webctrl aria-role='presentation' src='https://aadcdn.msftauth.net/shared/1.0/content/images/picker_more_ef457519e32834a8087669d5a08bb5fb.svg' tag='IMG' /&gt;" Guid="a1ab46ec-1f6c-4a15-aeae-e3316c4a7ead" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABrSURBVDhP7ZKxDcAwCAQZhVE8CpsyCqM4+pTExVlx6ZO+Aetk6bF5GOuDvyDhGONNVfXVByR092mGnjJhZqLfCSTc4QrXqGE1TYpBQskUAhLucIVr1C5pWCChzkYhUiTUyUREHy9Bwh2OCx/+yBe/2G1fRAAAAABJRU5ErkJggg==" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="503b7234d61d0b798d19c7dfb6832732.png" xmlns="">0kFF-UF07lE2Qupq8DQ9Nyg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

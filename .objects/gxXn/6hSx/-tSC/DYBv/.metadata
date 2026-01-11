@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Stay signed in",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "DYBvrB-4m0yZDD5ne1ee4A",
+  "Reference": "A8W7ST2sRku1x2tN474ZNQ/DYBvrB-4m0yZDD5ne1ee4A",
+  "ParentRef": "A8W7ST2sRku1x2tN474ZNQ/-tSCc8sEkk6PrXF50BoVgQ",
+  "Created": "2026-01-11T13:59:52.7170688Z",
+  "Updated": "2026-01-11T13:59:52.7170688Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

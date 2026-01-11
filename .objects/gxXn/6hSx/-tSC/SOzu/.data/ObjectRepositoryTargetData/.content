@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NWgL2FSkz0iDwijqZljXRg" Reference="A8W7ST2sRku1x2tN474ZNQ/SOzuMgfVl0aG1QKf8G1H6A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.microsoftonline.com/common/login" CVScreenId="0b429c71-9daf-4c69-9427-1055c20f2507" CvElementArea="1033, 588, 114, 38" CvTextArea="1077, 600, 25, 14" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="1036, 591, 108, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='idSIButton9' tag='INPUT' /&gt;" Guid="efdd0bb4-74ec-45ec-904e-c638715afafc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0b429c71-9daf-4c69-9427-1055c20f2507" CvTextArea="791, 451, 164, 27" CvTextArgument="Stay signed in?" CvType="Text" DesignTimeRectangle="792, 447, 352, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='heading' tag='DIV' type='' class='row text-title' aaname='Stay signed in?' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Stay signed in?' /&gt;" Guid="b3d4dfbe-b6d2-452c-bd06-eacf1c08d55f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4b5f37286f09a4600c79cb3b4dee8d70.png" xmlns="">0_SMZPHv1HEy-41SIsSZZjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

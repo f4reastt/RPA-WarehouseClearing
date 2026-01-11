@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zvqiTsRls0-_hltT-pniUg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.microsoftonline.com/common/login" CVScreenId="0b429c71-9daf-4c69-9427-1055c20f2507" CvTextArea="791, 451, 164, 27" CvTextArgument="Stay signed in?" CvType="Text" DesignTimeRectangle="792, 447, 352, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='heading' tag='DIV' /&gt;" Guid="8f5bd2c7-5611-4e20-9590-3f1915f6392b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0b429c71-9daf-4c69-9427-1055c20f2507" CvTextArea="790, 415, 278, 18" CvTextArgument="finance.automation@malaysiaairlines.com" CvType="Text" DesignTimeRectangle="792, 411, 352, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='displayName' tag='DIV' type='' class='identity' aaname='finance.automation@malaysiaairlines.com' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='finance.automation@malaysiaairlines.com' /&gt;" Guid="618d633b-a002-40fe-9415-311f6a001090" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="264a6dad2d29ca784b7b782dc3d24978.png" xmlns="">0X2zKIISQqUOZl88VBuJYGQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

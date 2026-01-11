@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="f_RBWsLIlUeQY98CfV22Gg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.microsoftonline.com/common/login" CVScreenId="0b429c71-9daf-4c69-9427-1055c20f2507" CvElementArea="792, 553, 24, 23" CvType="CheckBox" DesignTimeRectangle="794, 555, 20, 20" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='KmsiCheckboxField' tag='INPUT' type='checkbox' class='' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="657a8a62-195f-473a-b48f-1983152c1a42" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0b429c71-9daf-4c69-9427-1055c20f2507" CvElementArea="792, 553, 24, 23" CvTextArea="821, 558, 144, 17" CvTextArgument="Don't show this again" CvType="CheckBox" DesignTimeRectangle="794, 555, 171, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='                                               ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Don&amp;apos;t show this again' /&gt;" Guid="eff9e575-51fb-4743-8ae5-41886df1fe65" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="08a945acda8744530c75d9b487d4b989.png" xmlns="">0otHDmtGarkaRBQqF078lDw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

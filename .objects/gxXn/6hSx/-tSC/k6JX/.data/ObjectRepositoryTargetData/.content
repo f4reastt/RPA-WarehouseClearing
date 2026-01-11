@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Jt5mPrcC5U2Grzqs1m9PXw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.microsoftonline.com/common/oauth2/v2.0/authorize" DesignTimeRectangle="748, 526, 440, 72" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aria-role='button' tag='DIV' type='' class='table' aaname='              ' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Finance.Automation@malaysiaairlines.com' /&gt;" Guid="5975252a-ef24-4613-9e93-ec14e44b993d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="852, 546, 280, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl isleaf='1' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' parentid='tilesHolder' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='DIV' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Finance.Automation@malaysiaairlines.com' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Finance.Automation@malaysiaairlines.com' /&gt;" Guid="2d1e8e71-4cfa-4b82-bb73-c69eadd688fa" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d125e29604594803558a51d748ca86d3.png" xmlns="">0Tr72LUcFXUGVs6WPrjvGVw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

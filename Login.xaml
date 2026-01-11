@@ -1,0 +1,217 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Login" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Login_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="1281,1742" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1719" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1525" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'email'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="login.microsoftonline.com/common/oauth2/v2.0/authorize" ContentHash="Jt5mPrcC5U2Grzqs1m9PXw" DesignTimeRectangle="748, 526, 440, 72" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aria-role='button' tag='DIV' type='' class='table' aaname='              ' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Finance.Automation@malaysiaairlines.com' /&gt;" Guid="5975252a-ef24-4613-9e93-ec14e44b993d" InformativeScreenshot="d125e29604594803558a51d748ca86d3.png" Reference="A8W7ST2sRku1x2tN474ZNQ/k6JXamT3xU-IbxPwG-EqwQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="852, 546, 280, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl isleaf='1' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' parentid='tilesHolder' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='DIV' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Finance.Automation@malaysiaairlines.com' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Finance.Automation@malaysiaairlines.com' /&gt;" Guid="2d1e8e71-4cfa-4b82-bb73-c69eadd688fa" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Enter password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Text="[&quot;Airlines@344!&quot; + &quot;[k(enter)]&quot;]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="login.microsoftonline.com/common/oauth2/v2.0/authorize" CVScreenId="d9d673bc-9555-4df9-9343-1cb4d816b663" ContentHash="6eqkLPbTzkCLbvds35T1Rg" CvElementArea="791, 495, 352, 36" CvType="InputBox" DesignTimeRectangle="794, 495, 348, 36" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='i0118' tag='INPUT' type='password' class='form-control input ext-input text-box ext-text-box show-reveal-password ext-show-reveal-password' placeholder='Password' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c7e1d4d9-e1ec-4bca-a69a-d8ecbefa46ca" InformativeScreenshot="d7f662132d72fb9dc033b57453f20213.png" Reference="A8W7ST2sRku1x2tN474ZNQ/ntLmsAmTEkuU6nu_r4o1ug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="d9d673bc-9555-4df9-9343-1cb4d816b663" CvTextArea="792, 459, 166, 27" CvTextArgument="Enter password" CvType="Text" DesignTimeRectangle="792, 455, 352, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='heading' tag='DIV' type='' class='' aaname='Enter password' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Enter password' /&gt;" Guid="df9f7fe1-c0b2-4485-87b5-a9b81b724538" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NCheckState DisplayName="Check App State 'Stay signed in'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,843" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,451" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Checkbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="login.microsoftonline.com/common/login" CVScreenId="0b429c71-9daf-4c69-9427-1055c20f2507" ContentHash="f_RBWsLIlUeQY98CfV22Gg" CvElementArea="792, 553, 24, 23" CvType="CheckBox" DesignTimeRectangle="794, 555, 20, 20" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='KmsiCheckboxField' tag='INPUT' type='checkbox' class='' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="657a8a62-195f-473a-b48f-1983152c1a42" InformativeScreenshot="08a945acda8744530c75d9b487d4b989.png" Reference="A8W7ST2sRku1x2tN474ZNQ/Pr_buTuia0S-6bH9JvIpwQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="0b429c71-9daf-4c69-9427-1055c20f2507" CvElementArea="792, 553, 24, 23" CvTextArea="821, 558, 144, 17" CvTextArgument="Don't show this again" CvType="CheckBox" DesignTimeRectangle="794, 555, 171, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='                                               ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Don&amp;apos;t show this again' /&gt;" Guid="eff9e575-51fb-4743-8ae5-41886df1fe65" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Yes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="login.microsoftonline.com/common/login" CVScreenId="0b429c71-9daf-4c69-9427-1055c20f2507" ContentHash="NWgL2FSkz0iDwijqZljXRg" CvElementArea="1033, 588, 114, 38" CvTextArea="1077, 600, 25, 14" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="1036, 591, 108, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='idSIButton9' tag='INPUT' /&gt;" Guid="efdd0bb4-74ec-45ec-904e-c638715afafc" InformativeScreenshot="4b5f37286f09a4600c79cb3b4dee8d70.png" Reference="A8W7ST2sRku1x2tN474ZNQ/SOzuMgfVl0aG1QKf8G1H6A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="0b429c71-9daf-4c69-9427-1055c20f2507" CvTextArea="791, 451, 164, 27" CvTextArgument="Stay signed in?" CvType="Text" DesignTimeRectangle="792, 447, 352, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='heading' tag='DIV' type='' class='row text-title' aaname='Stay signed in?' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Stay signed in?' /&gt;" Guid="b3d4dfbe-b6d2-452c-bd06-eacf1c08d55f" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="login.microsoftonline.com/common/login" CVScreenId="0b429c71-9daf-4c69-9427-1055c20f2507" ContentHash="zvqiTsRls0-_hltT-pniUg" CvTextArea="791, 451, 164, 27" CvTextArgument="Stay signed in?" CvType="Text" DesignTimeRectangle="792, 447, 352, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='heading' tag='DIV' /&gt;" Guid="8f5bd2c7-5611-4e20-9590-3f1915f6392b" InformativeScreenshot="264a6dad2d29ca784b7b782dc3d24978.png" Reference="A8W7ST2sRku1x2tN474ZNQ/DYBvrB-4m0yZDD5ne1ee4A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="0b429c71-9daf-4c69-9427-1055c20f2507" CvTextArea="790, 415, 278, 18" CvTextArgument="finance.automation@malaysiaairlines.com" CvType="Text" DesignTimeRectangle="792, 411, 352, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='displayName' tag='DIV' type='' class='identity' aaname='finance.automation@malaysiaairlines.com' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='finance.automation@malaysiaairlines.com' /&gt;" Guid="618d633b-a002-40fe-9415-311f6a001090" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,170" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Login Process Complete&quot;]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="08Ot1UHQp0i8S8drapaZaw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA6SURBVDhPY/juJ/cfF2ZgYGCo38XwHxcGyTOgaxo1YCAMoBwsef8fJ2ZgYPi/k+E/LjxqwOAxgEIAAE2e5IMOgF4vAAAAAElFTkSuQmCC" InformativeScreenshot="aa24e8076066001c5d42d51d88395bba.jpg" Reference="A8W7ST2sRku1x2tN474ZNQ/-tSCc8sEkk6PrXF50BoVgQ" Selector="&lt;html app='chrome.exe' title='My Apps' /&gt;" Url="https://myapps.microsoft.com/#code=1.AQ8AZ6XDj-gelEmAnEn1DNttSF6Zkyd9CtdAvTVpaLoUIZcPAIcPAA.BQABBAIAAAADAOz_BQD0_0V2b1N0c0FydGlmYWN0cwIAAAAAAAGB-sHeWTqUaNimejMCcp7DVi_Xw474mseuwrWqRDzW4s6DfBtbBr3e_trb8soHVKo6aBLhpxfokw6AD_poHNU2RGEsGM9mYHv4DKvNhd4xnrz8iuA5DOAZvmbJelj_XuM2qCo_0UBqLT8ANUKIpzLu4dG9WORsGLGMrmmibP6j4TXB4L0YBh1hnnYTK1NXjH1T8Cegx9TNPxicwMnVqVH7gxrNC8g3uSxRJBspFPukC7RIUVfA88XWO_4Pg6iIrrT3IaneosockL7G2ccBL1FqgCozezFzZyMi46jOi0i1VKHYUpLlADAglgjTD_-r3zEwtet0vzoPYVRx_OAolNUZu0nAqND5XQqsxLiwAmo8COKed3j04bksCeLf2vfJGekQBeHttQ8QxszgzYmkZ-Q26PfV7cAOJjKDM7us3IZM1wm0exRFKQgwiSpqAikVQcS2ZXioiVDPBPbCA7SGblLMCSMiX0mdworVUoeTig5Ej75q1Uvs7-ujPhm_NYXYWzUWMop23mlwmyt5Ca03HRf9nrMA1LEpoU05jwTKCyOhP17MsgDS3aUcfvJszFBQEDPNsFs_TtoYzQ_wImyTBAR5bTpm6QxxPKK97jpNWUTgEYGjlwqKbFBH9RyQco28-NgcNGrJ6oPTyMagBOxzLSt_H17sNnU3ne2Omyom62u8No4QG5IjbTxngMdFa3EUlHNOA3gHETzGTztJEsFspP_-zq58t5fnbAMrNUdp73J4qMspX_s2MpwmO-yHUhUbHiEGGnRXdObKtjqfzPSATI6XWSt-WgzGiqRS8tnd1ghD7q7jc2-JsgHJW1guNYKWdyBLqQ430rBr-R0-IJjvffBReh4Un6uBvSREYSrE-aElcPhtKUuWZmPCqd9ATEAyo-67DDYBoYZy7CA5kfPVuTGJJYiNOqI8NAEKW57eRe_BN-6cQxA28ohiTaEUoQNrjH9y3VuyEwDH7c5hPbXChK1EF5w01OTv6x_uNQ4lAld1PNiYp-LeH7BpZVUO9lFFRdnbyU_uXXO8YFx8Yn9kqVGkPOxAC5j1TsQFoesakn2SWC2n4YXtAPrxIdwjOWHDH-J6yu44UjwlxQDPpxtLiCXuYk16pPLOi8Rh3lXzz9hlPZFTz-bwKs-a_43G9p8wi8mu0tfc2haR4ObArKKXSIPCHg4Hr8TSqxWwt2TZZOu4l6lIv_2U82aKVSjYSr_bVYG8M6BJ8Bwd3luQVQhuiu3kak6Midrm61qXuduayo224kENKwwuKc0KJ3cK3z0QQbQswp6RVGXGTtdF6u3lRUPI2a2_jmGBPVz1Mf4EPNX3081eMK9hhZdpbqAKwzIWJxB2ezXP8VcdJKXlwPIp7A&amp;client_info=eyJ1aWQiOiI2MDg1N2JmZC05ODNkLTQwNDgtYjI5OC0xN2YzNjQxNzQ0OGIiLCJ1dGlkIjoiOGZjM2E1NjctMWVlOC00OTk0LTgwOWMtNDlmNTBjZGI2ZDQ4In0&amp;state=eyJpZCI6IjUxZmUzMjIyLTE5MGUtNGQ0OS1hOGY1LWNlZTUwMGFmZjM3NSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3d&amp;session_state=0010f7da-954c-9a54-a2ff-8961ab02a677" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

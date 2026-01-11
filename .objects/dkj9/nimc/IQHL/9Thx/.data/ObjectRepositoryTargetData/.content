@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="s4Vivt-zE0i5RudqyZif6A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" CVScreenId="d5bd9422-dfc1-48c1-82e0-7042b01f7b95" DesignTimeRectangle="1327, 915, 34, 30" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="e02badd9-ea43-4c07-bbb8-765be8169165" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAeCAYAAABJ/8wUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHWSURBVFhH7Zc9a8JAGMdd69Lv4RcpHf0GfoEKbs5ugosFFyeXDi1FcCh0q6M4FG0Hg6BiW2zQiqlvSW3Mv1zOO+OdWhVTU/CBZ7jn5f/8uMuFxAePmE8MHMoWQB5fxji7rOE08gR/uOyKE20yg8xyGgchCQZwclGSBPblTJvMcsJwEEIpNrntZKYEQgjd3AnRySwyUwIRC//KjyCi/0eQCkIPfShDizdhYkJt9hBJzOuiVdNOadUWjwVyA2h21EQ+V1mivTFIBVHlmxdjYkE3LOhTtjaQSa8ASXehTEjEglKoL9HeBuSqD9XOWlCKTQRYPPGO/JD26W9tO74AEmvxPFnzviXObC1I6Hm2G2pXFuOQBjILIG1kVHqMutpFUOzbBST5RnPOc597GyX7iEzks3MQcnzUTORvxB7Zma0FiTeo6K8gtw4QshMMZjhAVOrbAYQfTaeHczGfnd2I6RhJx9GgqyESe8X9J13u5Rnxp3po2NktH1ZSk9Zmvauv7uYg4TKCBQM6KxKv73CEeIrWSSCkt/hF64wR4jFZeysQW/BOk15ojdoHIg7xZSD+cB3XHdrCdk7UZrYRiJt+BBHduyCe+VT0zMezZ34nGMzBf7AObZ4B+QF3vYKiv2NTUgAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SAP' /&gt;" SearchSteps="Image" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d5bd9422-dfc1-48c1-82e0-7042b01f7b95" DesignTimeRectangle="1367, 917, 53, 26" ElementType="Button" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[2]/shell/tbar/btnCLOSE' /&gt;" Guid="d8faaacd-8d1b-46b0-a6ae-1a55144af7ac" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8c96787f4824c8627bf836692354c5d8.png" xmlns="">0ePhB7785sUaYoHZJDo9JMQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

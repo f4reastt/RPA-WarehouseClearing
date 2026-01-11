@@ -1,0 +1,14 @@
+﻿{
+  "Name": "OK Emphasized",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "9ThxQ0RIn06BDw-opMQr5Q",
+  "Reference": "A8W7ST2sRku1x2tN474ZNQ/9ThxQ0RIn06BDw-opMQr5Q",
+  "ParentRef": "A8W7ST2sRku1x2tN474ZNQ/IQHLQv3nrEeMhqzZMUoJqQ",
+  "Created": "2026-01-11T14:34:58.2512617Z",
+  "Updated": "2026-01-11T14:34:58.2512617Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

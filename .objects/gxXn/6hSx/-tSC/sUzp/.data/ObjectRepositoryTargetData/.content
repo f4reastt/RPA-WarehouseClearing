@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eAgcSEFc00WIfBXKgwHhKw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.microsoftonline.com/common/oauth2/v2.0/authorize" CVScreenId="5502ddd8-8e4e-490d-aa14-7584cefa4b5f" CvTextArea="792, 490, 172, 21" CvTextArgument="Pick an account" CvType="Text" DesignTimeRectangle="792, 486, 352, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='heading' tag='DIV' /&gt;" Guid="3af46898-cff2-40ba-9413-ed4451b6488f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5502ddd8-8e4e-490d-aa14-7584cefa4b5f" CvTextArea="819, 447, 82, 19" CvTextArgument="Microsoft" CvType="Text" DesignTimeRectangle="792, 446, 108, 24" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="b6c33124-b59f-4ae4-b7e7-e0b3c934a7f7" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5bbf34142651b27b887ff26b7f38fdd2.png" xmlns="">0pEx140aHLkq7Cc1UcgjSbg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
