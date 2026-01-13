@@ -103,7 +103,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1281,671" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1202,671.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -119,8 +119,8 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
           <av:Point x:Key="ShapeLocation">265,35</av:Point>
-          <av:Size x:Key="ShapeSize">50,50</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">290,85 290,125</av:PointCollection>
+          <av:Size x:Key="ShapeSize">49.6,49.6</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">314.6,59.8 344.59999999999997,59.8 344.59999999999997,70.2 375,70.2</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <Flowchart.StartNode>
@@ -130,7 +130,7 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">235,715</av:Point>
-            <av:Size x:Key="ShapeSize">110,70</av:Size>
+            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">290,785 290,835</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -149,7 +149,7 @@
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <av:Point x:Key="ShapeLocation">235,835</av:Point>
-                <av:Size x:Key="ShapeSize">110,70</av:Size>
+                <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Clearing " sap:VirtualizedContainerService.HintSize="334.00000000000006,150" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Clearing.xaml">
@@ -170,11 +170,11 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">445,255</av:Point>
-            <av:Size x:Key="ShapeSize">110,70</av:Size>
+            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">555,290 585,290 585,750 345,750</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Login Sequence " sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Login.xaml">
+        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Login Sequence " sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Login.xaml">
           <ui:InvokeWorkflowFile.Arguments>
             <scg:Dictionary x:TypeArguments="x:String, Argument" />
           </ui:InvokeWorkflowFile.Arguments>
@@ -188,15 +188,15 @@
           <x:Reference>__ReferenceID1</x:Reference>
         </FlowStep.Next>
       </FlowStep>
-      <FlowStep x:Name="__ReferenceID7" sap2010:WorkflowViewState.IdRef="FlowStep_2">
+      <FlowStep sap2010:WorkflowViewState.IdRef="FlowStep_2">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">235,125</av:Point>
-            <av:Size x:Key="ShapeSize">110,70</av:Size>
+            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">290,195 290,260</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="S1: Re-Login" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence DisplayName="S1: Re-Login" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -289,11 +289,11 @@
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <av:Point x:Key="ShapeLocation">235,395</av:Point>
-                  <av:Size x:Key="ShapeSize">110,70</av:Size>
+                  <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
                   <av:PointCollection x:Key="ConnectorLocation">290,465 290,520</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="S2: Need To Answer Survey?" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <Sequence DisplayName="S2: Need To Answer Survey?" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -393,11 +393,11 @@
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <av:Point x:Key="ShapeLocation">435,515</av:Point>
-                        <av:Size x:Key="ShapeSize">110,70</av:Size>
+                        <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
                         <av:PointCollection x:Key="ConnectorLocation">545,550 586.2801928365349,550 586.2801928365349,750 345,750</av:PointCollection>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="answerSurvey Sequence" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="answerSurvey.xaml">
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="answerSurvey Sequence" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="answerSurvey.xaml">
                       <ui:InvokeWorkflowFile.Arguments>
                         <scg:Dictionary x:TypeArguments="x:String, Argument" />
                       </ui:InvokeWorkflowFile.Arguments>
@@ -422,6 +422,22 @@
       <x:Reference>__ReferenceID4</x:Reference>
       <x:Reference>__ReferenceID5</x:Reference>
       <x:Reference>__ReferenceID6</x:Reference>
+      <FlowStep x:Name="__ReferenceID7">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">375,35</av:Point>
+            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Assign sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:Int32">[numFiles]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:Int32">[Directory.GetFiles(file_path, "*", SearchOption.AllDirectories).Count()]</InArgument>
+          </Assign.Value>
+        </Assign>
+      </FlowStep>
     </Flowchart>
   </Sequence>
 </Activity>

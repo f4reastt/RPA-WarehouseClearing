@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Tool - Upload Template Program",
+  "Type": "Screen",
+  "Id": "1V3s2fSqikm493Nww2mhxw",
+  "Reference": "A8W7ST2sRku1x2tN474ZNQ/1V3s2fSqikm493Nww2mhxw",
+  "ParentRef": "A8W7ST2sRku1x2tN474ZNQ/nimcCN5KB0ah4TeYqrqCfQ",
+  "Created": "2026-01-13T02:13:48.8782545Z",
+  "Updated": "2026-01-13T02:13:48.8782545Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
