@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6LbSEYBBS0OZYF9FzMrBRQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="042adac6-4207-4247-959e-f009975db183" DesignTimeRectangle="854, 364, 26, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr' /&gt;&lt;webctrl sapweb-lsid='ls-inputfieldhelpbutton' /&gt;" Guid="37b4df4f-3ebe-410d-83aa-061b2bfd6ef5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAC3SURBVEhLY/g/QGDgLAYCEEFzLCoq+n/evHlQa+no461bt4IthwGwxSAX0QMg2zOwFtMLDGEfn9z6nyNkAU4cfxKqDg1Q7OP7q1f+N1j9GMpDBfjkKPYx1SzG6WMsQQoylOY+xmUIzX1Mc4txAZpbTKqPqZadcAF8ricHUO5jNECsOqr7mGyLR30MBwRSLzLGlZKRAdE+pjYg3sdUBqM+pgt4+vQpavMW5Ap64AFr0KODAbL4/38AkV2Cf2XqC+MAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="042adac6-4207-4247-959e-f009975db183" DesignTimeRectangle="397, 365, 458, 24" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/ctxtP_IFILE' /&gt;" Guid="2edbfa80-4b8d-4f22-8746-cf988a017ac0" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a95636e93a3aba65607016c5b2078445.png" xmlns="">0btRuCqKxi06pYdHHbCZlcg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

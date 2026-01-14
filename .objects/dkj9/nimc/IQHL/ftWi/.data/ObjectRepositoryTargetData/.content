@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DJh_gR4yokO8Rm246jePpw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="042adac6-4207-4247-959e-f009975db183" DesignTimeRectangle="397, 365, 458, 24" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/ctxtP_IFILE' /&gt;" Guid="dd4c8490-aa91-4502-bdd3-fa4e0c644bfd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAc4AAAAcCAYAAADoZ18gAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADiSURBVHhe7dfBCcMwEARAV6laVYK6UpCCIfuwMNwzM7CsnBSw3DUBgNf2cI4xZmttXtclIiIip6zhXKPZe19PAOBgD+da0Lt/31prrbX+9m1/Pf0JAP/uOJwAwFkMpwEFgOTiBICCGE4DCgDJxQkABTGcBhQAkosTAApiOA0oACQXJwAUxHAaUABILk4AKIjhNKAAkFycAFAQw2lAASC5OAGgIIbTgAJAcnECQEEMpwEFgOTiBICCGM7Vv2+ttdZaf/u2v1prs/e+fwAAnu3hHGPs8VyrKiIiIofs+QQAXpjzA/ZCyGdFJWG+AAAAAElFTkSuQmCC" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="042adac6-4207-4247-959e-f009975db183" DesignTimeRectangle="76, 364, 320, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/txt%_P_IFILE_%_APP_%-TEXT' /&gt;" Guid="6cef1e31-716b-426c-ac78-b527c80807b1" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0aec41999bd0b59596bc5bd1f5f0d1bd.png" xmlns="">0fAKUKThSOkm9zWqt_rLwQA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

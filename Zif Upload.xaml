@@ -105,19 +105,19 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Zif_Upload" sap:VirtualizedContainerService.HintSize="1202,5936.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Zif_Upload" sap:VirtualizedContainerService.HintSize="1202,6800.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="624,5913.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="624,6777.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="803ccccf-3a3b-415e-9b1e-d8ce88ded8b2" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="622.4,5724" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="622.4,6588" sap2010:WorkflowViewState.IdRef="Sequence_8">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -501,21 +501,26 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NClick>
-            <uix:NApplicationCard sap2010:Annotation.AnnotationText="Go-Live; Change to Production link &quot;https://mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD#Shell-home&quot;" AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="S4HANA" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="588.8,5212" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="258bf29b-4a08-4308-96f6-69cedf5da80f" Version="V2">
+            <uix:NApplicationCard sap2010:Annotation.AnnotationText="Go-Live; Change to Production link &quot;https://mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD#Shell-home&quot;" AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="S4HANA" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="588.8,6076" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="258bf29b-4a08-4308-96f6-69cedf5da80f" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="587.2,4977.6" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="587.2,5841.6" sap2010:WorkflowViewState.IdRef="Sequence_14">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="strTodayDate" />
-                      <Variable x:TypeArguments="x:Int32" Default="0" Name="numFiles" />
+                      <Variable x:TypeArguments="x:Int32" Name="numFiles">
+                        <Variable.Default>
+                          <Literal x:TypeArguments="x:Int32" />
+                        </Variable.Default>
+                      </Variable>
                       <Variable x:TypeArguments="x:String" Name="file_path">
                         <Variable.Default>
                           <Literal x:TypeArguments="x:String">C:\Users\V112339\Desktop\22012056\Sample</Literal>
                         </Variable.Default>
                       </Variable>
+                      <Variable x:TypeArguments="x:Boolean" Default="[&quot;True&quot;]" Name="firstTime" />
                     </Sequence.Variables>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -617,7 +622,40 @@
                         <InArgument x:TypeArguments="x:Int32">[Directory.GetFiles(file_path, "*", SearchOption.AllDirectories).Count()]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="[file_path]" sap:VirtualizedContainerService.HintSize="553.6,3747.2" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PC' radio button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="553.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_41" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="258bf29b-4a08-4308-96f6-69cedf5da80f" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" CVScreenId="5a946f2c-af67-4ddc-bd8e-b664f88ff971" ContentHash="c6ng_T8_PUuTg1dO4Fkf6Q" CvElementArea="75, 398, 22, 22" CvTextArea="101, 402, 20, 13" CvTextArgument="PC" CvType="RadioButton" DesignTimeRectangle="76, 347, 230, 20" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/radP_RBA' /&gt;" Guid="60a21d1d-3cde-4fae-a977-e59a4392a9bd" InformativeScreenshot="08ff4603a784c3b7d55f5dc0cd61191b.png" Reference="A8W7ST2sRku1x2tN474ZNQ/K4tO9W7wREa190bMGj1ArA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="5a946f2c-af67-4ddc-bd8e-b664f88ff971" DesignTimeRectangle="76, 312, 320, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/txt%_P_IFILE_%_APP_%-TEXT' /&gt;" Guid="c7d0a087-dab2-4c40-8842-bd4e80fd86b9" SearchSteps="Selector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Interface File Name'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="553.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_42" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="258bf29b-4a08-4308-96f6-69cedf5da80f" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" CVScreenId="ebfebfe4-67d4-4daf-8628-8037e38b7c98" ContentHash="eLRTpf9agkuwls4cuiwfDw" CvElementArea="853, 364, 28, 26" CvType="Button" DesignTimeRectangle="853, 364, 28, 27" ElementVisibilityArgument="Interactive" Guid="902e36be-aaaa-413d-964b-8ceb2d994437" InformativeScreenshot="23e2b66ff256d6eee427ef6950c1ca5d.png" Reference="A8W7ST2sRku1x2tN474ZNQ/2m2Ssxdhh0y6D3j6b8TlaQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="ebfebfe4-67d4-4daf-8628-8037e38b7c98" DesignTimeRectangle="397, 365, 458, 24" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/ctxtP_IFILE' /&gt;" Guid="a67c99f1-3d11-42da-928d-cdb2bb8e7359" SearchSteps="Selector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="553.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_43" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="258bf29b-4a08-4308-96f6-69cedf5da80f" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" CVScreenId="fbbbaf5d-07d7-48a3-b502-75abc6c52c0a" ContentHash="g_BuwcYp60G-E-rWwtRF-Q" CvElementArea="1041, 755, 30, 27" CvType="Icon" DesignTimeRectangle="1042, 670, 29, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]' /&gt;&lt;webctrl sapweb-lsid='UpDownDialogChoose' /&gt;" Guid="ad48512c-e6ed-4c31-8e20-028556db3b64" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACEAAAAeCAYAAACiyHcXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIWSURBVFhH7ZY9SBthGMczuzh16mCE4lBQcBEXUdwKhWZxEClETFARxUGH2kJTiihBBKl1TBCpFzV+0GpEzaAmgpMQFEuFcBoxQfGDUxtMTPIvz1tO7t7L4IXDD8hvOd7nnrv3d//3veNMeAKY+MJjkJeQ0Uh4PB5YLBaYTP9PGXmMRCJwuVxsrEQjIQgCotEoXzYEum8wGOTLWgmHw8GXDMVsNvOlh5cQRZEvPbzE805i++Acb78uo7B+DAV1oyhtn4EnEEYqnbnr6fOGUPvJh8t4ko0zGaDfG8LrtmnsHFzc9eWUxOafE7xsFPCudwVb4VOIx1f4PL6FF+9/sEloMoKXmNoQYbZPsOuV6E6Cbkg3tg6tI3GbVvUJ62EU2SYQEs/YWClBE5MAifDoToKevNg+ibWdmKqHOL+6QWX3LwzMbrOxLEFSZR0zqpSU6E5ibnMfJa1eHJ39VfUQNEHD4CqavgXYmCTKO+dQ0fUTVR/mmWQ2dCdBEq+ap3B4eq3qIbJJ0Ka1DQdQ89EH+3BQs4SE7iTusxwji7/ZmCSqexYgxZPYi0pM/rtvl79MfxLxRApvvizp3piEYW8Hkesrmkyl0TKywTapcjl1JyGT7WNFT6rc/bwEcXGd0OyPnJIwmpyTMJJ8EjL3SoJ+7yRJ4suGQf+vPBoJv9/PGt1uN6xWq6FHp9OJWEz74dNIPAZ5CZknIfEP87lplAlvgNsAAAAASUVORK5CYII=" InformativeScreenshot="abe34c49cb1f1cd49035d8ad48816830.png" Reference="A8W7ST2sRku1x2tN474ZNQ/JE1faZlOe0uDTQvdw1pUJg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="fbbbaf5d-07d7-48a3-b502-75abc6c52c0a" DesignTimeRectangle="1079, 670, 53, 26" ElementType="Button" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]' /&gt;&lt;webctrl sapweb-lsid='UpDownDialogCancel' /&gt;" Guid="d5406f36-9f2e-403c-9c96-e1f3fe2e8478" SearchSteps="Selector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="[file_path]" sap:VirtualizedContainerService.HintSize="553.6,4042.4" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
                       <ui:ForEachFileX.Body>
                         <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
                           <ActivityAction.Argument1>
@@ -626,48 +664,66 @@
                           <ActivityAction.Argument2>
                             <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                           </ActivityAction.Argument2>
-                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,3459.2" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,3754.4" sap2010:WorkflowViewState.IdRef="Sequence_15">
                             <Sequence.Variables>
-                              <Variable x:TypeArguments="x:Int32" Default="0" Name="CurrentIndex" />
+                              <Variable x:TypeArguments="x:Int32" Name="CurrentIndex">
+                                <Variable.Default>
+                                  <Literal x:TypeArguments="x:Int32" />
+                                </Variable.Default>
+                              </Variable>
                             </Sequence.Variables>
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PC' radio button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486.4,189.6" sap2010:WorkflowViewState.IdRef="NClick_26" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="258bf29b-4a08-4308-96f6-69cedf5da80f" Version="V5">
-                              <uix:NClick.Target>
-                                <uix:TargetAnchorable BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" CVScreenId="5a946f2c-af67-4ddc-bd8e-b664f88ff971" ContentHash="c6ng_T8_PUuTg1dO4Fkf6Q" CvElementArea="75, 398, 22, 22" CvTextArea="101, 402, 20, 13" CvTextArgument="PC" CvType="RadioButton" DesignTimeRectangle="76, 347, 230, 20" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/radP_RBA' /&gt;" Guid="60a21d1d-3cde-4fae-a977-e59a4392a9bd" InformativeScreenshot="08ff4603a784c3b7d55f5dc0cd61191b.png" Reference="A8W7ST2sRku1x2tN474ZNQ/K4tO9W7wREa190bMGj1ArA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                                  <uix:TargetAnchorable.Anchors>
-                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                      <uix:Target CVScreenId="5a946f2c-af67-4ddc-bd8e-b664f88ff971" DesignTimeRectangle="76, 312, 320, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/txt%_P_IFILE_%_APP_%-TEXT' /&gt;" Guid="c7d0a087-dab2-4c40-8842-bd4e80fd86b9" SearchSteps="Selector" />
-                                    </scg:List>
-                                  </uix:TargetAnchorable.Anchors>
-                                </uix:TargetAnchorable>
-                              </uix:NClick.Target>
-                            </uix:NClick>
-                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Interface File Name'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486.4,189.6" sap2010:WorkflowViewState.IdRef="NClick_27" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="258bf29b-4a08-4308-96f6-69cedf5da80f" Version="V5">
-                              <uix:NClick.Target>
-                                <uix:TargetAnchorable BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" CVScreenId="ebfebfe4-67d4-4daf-8628-8037e38b7c98" ContentHash="eLRTpf9agkuwls4cuiwfDw" CvElementArea="853, 364, 28, 26" CvType="Button" DesignTimeRectangle="853, 364, 28, 27" ElementVisibilityArgument="Interactive" Guid="902e36be-aaaa-413d-964b-8ceb2d994437" InformativeScreenshot="23e2b66ff256d6eee427ef6950c1ca5d.png" Reference="A8W7ST2sRku1x2tN474ZNQ/2m2Ssxdhh0y6D3j6b8TlaQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
-                                  <uix:TargetAnchorable.Anchors>
-                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                      <uix:Target CVScreenId="ebfebfe4-67d4-4daf-8628-8037e38b7c98" DesignTimeRectangle="397, 365, 458, 24" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/ctxtP_IFILE' /&gt;" Guid="a67c99f1-3d11-42da-928d-cdb2bb8e7359" SearchSteps="Selector" />
-                                    </scg:List>
-                                  </uix:TargetAnchorable.Anchors>
-                                </uix:TargetAnchorable>
-                              </uix:NClick.Target>
-                            </uix:NClick>
-                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486.4,189.6" sap2010:WorkflowViewState.IdRef="NClick_28" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="258bf29b-4a08-4308-96f6-69cedf5da80f" Version="V5">
-                              <uix:NClick.Target>
-                                <uix:TargetAnchorable BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" CVScreenId="fbbbaf5d-07d7-48a3-b502-75abc6c52c0a" ContentHash="g_BuwcYp60G-E-rWwtRF-Q" CvElementArea="1041, 755, 30, 27" CvType="Icon" DesignTimeRectangle="1042, 670, 29, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]' /&gt;&lt;webctrl sapweb-lsid='UpDownDialogChoose' /&gt;" Guid="ad48512c-e6ed-4c31-8e20-028556db3b64" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACEAAAAeCAYAAACiyHcXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIWSURBVFhH7ZY9SBthGMczuzh16mCE4lBQcBEXUdwKhWZxEClETFARxUGH2kJTiihBBKl1TBCpFzV+0GpEzaAmgpMQFEuFcBoxQfGDUxtMTPIvz1tO7t7L4IXDD8hvOd7nnrv3d//3veNMeAKY+MJjkJeQ0Uh4PB5YLBaYTP9PGXmMRCJwuVxsrEQjIQgCotEoXzYEum8wGOTLWgmHw8GXDMVsNvOlh5cQRZEvPbzE805i++Acb78uo7B+DAV1oyhtn4EnEEYqnbnr6fOGUPvJh8t4ko0zGaDfG8LrtmnsHFzc9eWUxOafE7xsFPCudwVb4VOIx1f4PL6FF+9/sEloMoKXmNoQYbZPsOuV6E6Cbkg3tg6tI3GbVvUJ62EU2SYQEs/YWClBE5MAifDoToKevNg+ibWdmKqHOL+6QWX3LwzMbrOxLEFSZR0zqpSU6E5ibnMfJa1eHJ39VfUQNEHD4CqavgXYmCTKO+dQ0fUTVR/mmWQ2dCdBEq+ap3B4eq3qIbJJ0Ka1DQdQ89EH+3BQs4SE7iTusxwji7/ZmCSqexYgxZPYi0pM/rtvl79MfxLxRApvvizp3piEYW8Hkesrmkyl0TKywTapcjl1JyGT7WNFT6rc/bwEcXGd0OyPnJIwmpyTMJJ8EjL3SoJ+7yRJ4suGQf+vPBoJv9/PGt1uN6xWq6FHp9OJWEz74dNIPAZ5CZknIfEP87lplAlvgNsAAAAASUVORK5CYII=" InformativeScreenshot="abe34c49cb1f1cd49035d8ad48816830.png" Reference="A8W7ST2sRku1x2tN474ZNQ/JE1faZlOe0uDTQvdw1pUJg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                                  <uix:TargetAnchorable.Anchors>
-                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                      <uix:Target CVScreenId="fbbbaf5d-07d7-48a3-b502-75abc6c52c0a" DesignTimeRectangle="1079, 670, 53, 26" ElementType="Button" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]' /&gt;&lt;webctrl sapweb-lsid='UpDownDialogCancel' /&gt;" Guid="d5406f36-9f2e-403c-9c96-e1f3fe2e8478" SearchSteps="Selector" />
-                                    </scg:List>
-                                  </uix:TargetAnchorable.Anchors>
-                                </uix:TargetAnchorable>
-                              </uix:NClick.Target>
-                            </uix:NClick>
+                            <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="486.4,750.4" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
+                              <ui:InterruptibleWhile.Body>
+                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="449.6,620" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Interface File Name'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189.6" sap2010:WorkflowViewState.IdRef="NClick_47" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="258bf29b-4a08-4308-96f6-69cedf5da80f" Version="V5">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="042adac6-4207-4247-959e-f009975db183" ContentHash="DJh_gR4yokO8Rm246jePpw" DesignTimeRectangle="397, 365, 458, 24" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/ctxtP_IFILE' /&gt;" Guid="dd4c8490-aa91-4502-bdd3-fa4e0c644bfd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAc4AAAAcCAYAAADoZ18gAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADiSURBVHhe7dfBCcMwEARAV6laVYK6UpCCIfuwMNwzM7CsnBSw3DUBgNf2cI4xZmttXtclIiIip6zhXKPZe19PAOBgD+da0Lt/31prrbX+9m1/Pf0JAP/uOJwAwFkMpwEFgOTiBICCGE4DCgDJxQkABTGcBhQAkosTAApiOA0oACQXJwAUxHAaUABILk4AKIjhNKAAkFycAFAQw2lAASC5OAGgIIbTgAJAcnECQEEMpwEFgOTiBICCGM7Vv2+ttdZaf/u2v1prs/e+fwAAnu3hHGPs8VyrKiIiIofs+QQAXpjzA/ZCyGdFJWG+AAAAAElFTkSuQmCC" InformativeScreenshot="0aec41999bd0b59596bc5bd1f5f0d1bd.png" IsResponsive="True" Reference="A8W7ST2sRku1x2tN474ZNQ/ftWi3n1w6k22PuljPYjmdw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="042adac6-4207-4247-959e-f009975db183" DesignTimeRectangle="76, 364, 320, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/txt%_P_IFILE_%_APP_%-TEXT' /&gt;" Guid="6cef1e31-716b-426c-ac78-b527c80807b1" SearchSteps="Selector" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'UCF_InputFieldHelpButto…(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189.6" sap2010:WorkflowViewState.IdRef="NClick_48" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="258bf29b-4a08-4308-96f6-69cedf5da80f" Version="V5">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="042adac6-4207-4247-959e-f009975db183" ContentHash="6LbSEYBBS0OZYF9FzMrBRQ" DesignTimeRectangle="854, 364, 26, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr' /&gt;&lt;webctrl sapweb-lsid='ls-inputfieldhelpbutton' /&gt;" Guid="37b4df4f-3ebe-410d-83aa-061b2bfd6ef5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAC3SURBVEhLY/g/QGDgLAYCEEFzLCoq+n/evHlQa+no461bt4IthwGwxSAX0QMg2zOwFtMLDGEfn9z6nyNkAU4cfxKqDg1Q7OP7q1f+N1j9GMpDBfjkKPYx1SzG6WMsQQoylOY+xmUIzX1Mc4txAZpbTKqPqZadcAF8ricHUO5jNECsOqr7mGyLR30MBwRSLzLGlZKRAdE+pjYg3sdUBqM+pgt4+vQpavMW5Ap64AFr0KODAbL4/38AkV2Cf2XqC+MAAAAASUVORK5CYII=" InformativeScreenshot="a95636e93a3aba65607016c5b2078445.png" Reference="A8W7ST2sRku1x2tN474ZNQ/NOr4n4hKjE2qfGcQUUlTXg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="042adac6-4207-4247-959e-f009975db183" DesignTimeRectangle="397, 365, 458, 24" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/ctxtP_IFILE' /&gt;" Guid="2edbfa80-4b8d-4f22-8746-cf988a017ac0" SearchSteps="Selector" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,180.8" sap2010:WorkflowViewState.IdRef="NClick_49" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="258bf29b-4a08-4308-96f6-69cedf5da80f" Version="V5">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" CVScreenId="fbbbaf5d-07d7-48a3-b502-75abc6c52c0a" ContentHash="g_BuwcYp60G-E-rWwtRF-Q" CvElementArea="1041, 755, 30, 27" CvType="Icon" DesignTimeRectangle="1042, 670, 29, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]' /&gt;&lt;webctrl sapweb-lsid='UpDownDialogChoose' /&gt;" Guid="ad48512c-e6ed-4c31-8e20-028556db3b64" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACEAAAAeCAYAAACiyHcXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIWSURBVFhH7ZY9SBthGMczuzh16mCE4lBQcBEXUdwKhWZxEClETFARxUGH2kJTiihBBKl1TBCpFzV+0GpEzaAmgpMQFEuFcBoxQfGDUxtMTPIvz1tO7t7L4IXDD8hvOd7nnrv3d//3veNMeAKY+MJjkJeQ0Uh4PB5YLBaYTP9PGXmMRCJwuVxsrEQjIQgCotEoXzYEum8wGOTLWgmHw8GXDMVsNvOlh5cQRZEvPbzE805i++Acb78uo7B+DAV1oyhtn4EnEEYqnbnr6fOGUPvJh8t4ko0zGaDfG8LrtmnsHFzc9eWUxOafE7xsFPCudwVb4VOIx1f4PL6FF+9/sEloMoKXmNoQYbZPsOuV6E6Cbkg3tg6tI3GbVvUJ62EU2SYQEs/YWClBE5MAifDoToKevNg+ibWdmKqHOL+6QWX3LwzMbrOxLEFSZR0zqpSU6E5ibnMfJa1eHJ39VfUQNEHD4CqavgXYmCTKO+dQ0fUTVR/mmWQ2dCdBEq+ap3B4eq3qIbJJ0Ka1DQdQ89EH+3BQs4SE7iTusxwji7/ZmCSqexYgxZPYi0pM/rtvl79MfxLxRApvvizp3piEYW8Hkesrmkyl0TKywTapcjl1JyGT7WNFT6rc/bwEcXGd0OyPnJIwmpyTMJJ8EjL3SoJ+7yRJ4suGQf+vPBoJv9/PGt1uN6xWq6FHp9OJWEz74dNIPAZ5CZknIfEP87lplAlvgNsAAAAASUVORK5CYII=" InformativeScreenshot="abe34c49cb1f1cd49035d8ad48816830.png" Reference="A8W7ST2sRku1x2tN474ZNQ/JE1faZlOe0uDTQvdw1pUJg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="fbbbaf5d-07d7-48a3-b502-75abc6c52c0a" DesignTimeRectangle="1079, 670, 53, 26" ElementType="Button" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]' /&gt;&lt;webctrl sapweb-lsid='UpDownDialogCancel' /&gt;" Guid="d5406f36-9f2e-403c-9c96-e1f3fe2e8478" SearchSteps="Selector" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                </Sequence>
+                              </ui:InterruptibleWhile.Body>
+                              <ui:InterruptibleWhile.Condition>
+                                <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="firstTime = False" />
+                              </ui:InterruptibleWhile.Condition>
+                            </ui:InterruptibleWhile>
                             <uix:NApplicationCard AttachMode="ByInstance" DisplayName="File Explorer" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486.4,732.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_9" ScopeGuid="701d41e3-52d2-49ea-aa91-67f47aaa964d" Version="V2">
                               <uix:NApplicationCard.Body>
                                 <ActivityAction x:TypeArguments="x:Object">
@@ -868,6 +924,14 @@
                                 </Sequence>
                               </ui:InterruptibleWhile.Body>
                             </ui:InterruptibleWhile>
+                            <Assign sap:VirtualizedContainerService.HintSize="486.4,113.6" sap2010:WorkflowViewState.IdRef="Assign_2">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:Boolean">[firstTime]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                              </Assign.Value>
+                            </Assign>
                             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="486.4,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;File &quot; + CurrentIndex.ToString + &quot; Out Of &quot; + numFiles.ToString]" />
                           </Sequence>
                         </ActivityAction>

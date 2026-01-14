@@ -109,7 +109,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart sap:VirtualizedContainerService.HintSize="600,648" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart sap:VirtualizedContainerService.HintSize="1208,385.6" sap2010:WorkflowViewState.IdRef="Flowchart_1">
       <Flowchart.Variables>
         <Variable x:TypeArguments="x:Boolean" Name="S1Output" />
         <Variable x:TypeArguments="x:Boolean" Name="S2Output" />
@@ -120,7 +120,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
           <av:Point x:Key="ShapeLocation">265,35</av:Point>
           <av:Size x:Key="ShapeSize">49.6,49.6</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">314.6,59.8 344.59999999999997,59.8 344.59999999999997,70.2 375,70.2</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">289.8,84.6 289.8,114.6 290.2,114.6 290.2,125</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <Flowchart.StartNode>
@@ -188,7 +188,7 @@
           <x:Reference>__ReferenceID1</x:Reference>
         </FlowStep.Next>
       </FlowStep>
-      <FlowStep sap2010:WorkflowViewState.IdRef="FlowStep_2">
+      <FlowStep x:Name="__ReferenceID7" sap2010:WorkflowViewState.IdRef="FlowStep_2">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">235,125</av:Point>
@@ -422,22 +422,6 @@
       <x:Reference>__ReferenceID4</x:Reference>
       <x:Reference>__ReferenceID5</x:Reference>
       <x:Reference>__ReferenceID6</x:Reference>
-      <FlowStep x:Name="__ReferenceID7">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">375,35</av:Point>
-            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-        <Assign sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="Assign_1">
-          <Assign.To>
-            <OutArgument x:TypeArguments="x:Int32">[numFiles]</OutArgument>
-          </Assign.To>
-          <Assign.Value>
-            <InArgument x:TypeArguments="x:Int32">[Directory.GetFiles(file_path, "*", SearchOption.AllDirectories).Count()]</InArgument>
-          </Assign.Value>
-        </Assign>
-      </FlowStep>
     </Flowchart>
   </Sequence>
 </Activity>
