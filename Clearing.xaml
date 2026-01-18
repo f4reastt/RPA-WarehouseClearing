@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Clearing" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Clearing_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Clearing" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Clearing_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -25,6 +25,26 @@
       <x:String>System.Windows.Markup</x:String>
       <x:String>GlobalVariablesNamespace</x:String>
       <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -50,13 +70,245 @@
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Clearing" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Clearing" sap:VirtualizedContainerService.HintSize="1561,3350" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="C:\Users\najmekk\Desktop\MAG\Warehouse Recon\2 - Clearing\Test File" Name="file_path" />
+      <Variable x:TypeArguments="scg:IEnumerable(x:Object)" Name="result" />
+    </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard sap2010:Annotation.AnnotationText="Go-Live; Change to Production link &quot;https://mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD#Shell-home&quot;" AttachMode="ByInstance" DisplayName="Chrome Home" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="520,3327" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="313747e0-85ad-4e89-8ba1-c45b0dbbff0a" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,3088" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'sap.esh.search.ui.contr…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="313747e0-85ad-4e89-8ba1-c45b0dbbff0a" Text="[&quot;Clear G/L Account&quot; + &quot;[k(Enter)]&quot;]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="82af58a1-809a-470d-b742-f0f8391a57b8" ContentHash="zYnrjKCG1EadJowlAvqu5g" DesignTimeRectangle="723, 136, 454, 33" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='searchFieldInShell-input' /&gt;" Guid="e1388b6c-be8b-4594-b72c-da60eb22c0ce" InformativeScreenshot="f845290a4dbbf522f52bda58edd10980.png" Reference="A8W7ST2sRku1x2tN474ZNQ/Rm-nFdkTdk-fFXnZSpTJPg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Clear GL AccountsManua…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="313747e0-85ad-4e89-8ba1-c45b0dbbff0a" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" ContentHash="7h1uAGUXi0ac8pyibCMKZg" DesignTimeRectangle="399, 257, 159, 158" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl ui5-class='sap.m.GenericTile' ui5p-header='Clear G/L Accounts' /&gt;" Guid="e852b00b-9ee3-43ff-b4ab-9659b5fe2b59" InformativeScreenshot="5c263ec88998437712b158050a3059b0.png" Reference="A8W7ST2sRku1x2tN474ZNQ/f8g5FxAMfUie9mtL2OtItQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Company Code'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,250" sap2010:WorkflowViewState.IdRef="NTypeInto_7" InteractionMode="SameAsCard" ScopeIdentifier="313747e0-85ad-4e89-8ba1-c45b0dbbff0a" Text="[&quot;320K&quot; + &quot;[k(Enter)]&quot;]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="232ef294-b233-4ea8-a624-dc3fdecb9fd9" ContentHash="Z0mht-CumUiYseixJhizyQ" DesignTimeRectangle="51, 270, 346, 32" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='application-AccountingDocument-manageManualclearing-component---fullscreen--fin.gl.manualclearing.GlAccountList.SmartFilterBar-filterItemControl_BASIC-CompanyCode' /&gt;" Guid="580339cc-af43-4a8a-a56e-776050f2c0d2" InformativeScreenshot="b7b91f8f84059c11dd6090bcade5df4b.png" Reference="A8W7ST2sRku1x2tN474ZNQ/HY9dbhzCzUipsh_FzrGFow" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Clear G/L Accounts' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="[file_path]" sap:VirtualizedContainerService.HintSize="484,2330" sap2010:WorkflowViewState.IdRef="ForEachFileX_2" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+              <ui:ForEachFileX.Body>
+                <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
+                  <ActivityAction.Argument1>
+                    <DelegateInArgument x:TypeArguments="si:FileInfo" Name="CurrentFile" />
+                  </ActivityAction.Argument1>
+                  <ActivityAction.Argument2>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                  </ActivityAction.Argument2>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,2038" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="AWBText" />
+                      <Variable x:TypeArguments="scg:IEnumerable(x:Object)" Name="result" />
+                      <Variable x:TypeArguments="x:Int32" Default="0" Name="CurrentIndex" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:ReadColumn WorkbookPathResource="{x:Null}" DisplayName="Read Column Workbook" sap:VirtualizedContainerService.HintSize="416,124" sap2010:WorkflowViewState.IdRef="ReadColumn_2" Result="[result]" SheetName="Sheet2" StartingCell="A2" WorkbookPath="[CurrentFile.FullName]" />
+                    <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_2">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[AWBText]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[String.Join(Environment.NewLine, result)]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <uix:NSetClipboard DisplayName="Set Clipboard" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,127" sap2010:WorkflowViewState.IdRef="NSetClipboard_1" ScopeIdentifier="313747e0-85ad-4e89-8ba1-c45b0dbbff0a" Text="[AWBText]" Version="V5" />
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'sap.ui.core.Icon'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="313747e0-85ad-4e89-8ba1-c45b0dbbff0a" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="f0f0e280-8bd9-42cd-92f1-c3abf676c54b" ContentHash="AKPF-FjpYk2wC0kZqrYHtw" CvType="Icon" DesignTimeRectangle="1128, 539, 14, 22" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='application-AccountingDocument-manageManualclearing-component---GlClearing--gl.openItemsSmartTable-btnPersonalisation-img' /&gt;" Guid="43617d87-bc26-4a8e-a98c-94eaed6c79a8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAAaCAYAAAC6nQw6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADOSURBVEhLY/hPJcCALkAuGDWIMMBr0LS5S//L6tqBcUFVK7o0CsBp0MtXb/5buIWCDdt94CiYDRLDBVAMAtkKcwEIq5m6/b909QbcUGS50MS8/1++fsM0CKQBpBGmEN0FIE0gzciGgVwKA3CDQF5A14wrjGCGIothuAhmGMg2dK+BDEZ2GVYXgQCyZpAm5HAA2Q7CMEORDQEBnAbhchFBg9C9BgLYwoig17AFNi5AVGBTHP0gQJUEiQ4oyiLoAFtg4wJ4DSIFjBpEGFDNIADlh4C5F2ExVgAAAABJRU5ErkJggg==" InformativeScreenshot="89ccdc8683ab081a65acf6364aabbd6d.png" Reference="A8W7ST2sRku1x2tN474ZNQ/KMjIKPyrpEusQviy7ZciNw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Clear G/L Accounts' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="9807336c-c439-4b9c-acd7-773847fb4e7f" DesignTimeRectangle="1048, 536, 65, 28" ElementType="Button" FullSelectorArgument="&lt;webctrl id='application-AccountingDocument-manageManualclearing-component---GlClearing--gl.activateAllButton' /&gt;" Guid="8849cf39-ac89-40d6-9781-4f58af34665f" SearchSteps="Selector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sort'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="313747e0-85ad-4e89-8ba1-c45b0dbbff0a" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="32be4dd8-3129-4479-adee-9d11b13ddcf1" ContentHash="lyxtC-7YJ0KM3Kz0C6r92w" CvTextArea="832, 282, 33, 13" CvTextArgument="Filter" CvType="Text" DesignTimeRectangle="832, 282, 33, 13" ElementVisibilityArgument="Interactive" Guid="934055c4-f69e-44df-933b-b2d901551c27" InformativeScreenshot="9a9cbbe90e1c53f3de35c5399d739ac7.png" Reference="A8W7ST2sRku1x2tN474ZNQ/DuleXi1_6UOk6oRJJCSLSA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Clear G/L Accounts' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="32be4dd8-3129-4479-adee-9d11b13ddcf1" CvTextArea="779, 283, 26, 12" CvTextArgument="Sort" CvType="Text" DesignTimeRectangle="778, 283, 27, 12" Guid="ac708b71-710d-48be-b02e-43e58c5a566c" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Filter'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="313747e0-85ad-4e89-8ba1-c45b0dbbff0a" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="1c3ad6b5-a2a2-4170-91dd-eea526d03685" ContentHash="vCJZypVolkO0R-4AsXas_A" CvElementArea="695, 298, 219, 34" CvType="InputBox" DesignTimeRectangle="695, 298, 219, 34" ElementType="DropDown" ElementVisibilityArgument="Interactive" Guid="f004ab19-484c-4e2e-af12-8ad3c3cb416d" InformativeScreenshot="401cf8e07556d43cd84a379ec50ed6ba.png" Reference="A8W7ST2sRku1x2tN474ZNQ/Ymj2L7R7wkyNuj4L54_ulg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Clear G/L Accounts' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="1c3ad6b5-a2a2-4170-91dd-eea526d03685" CvTextArea="832, 251, 33, 13" CvTextArgument="Filter" CvType="Text" DesignTimeRectangle="832, 251, 33, 13" Guid="9e65d83f-3cc5-4c9e-a1b5-0a94218f5b75" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset X="93" />
+                          </uix:TargetAnchorable.PointOffset>
+                          <uix:TargetAnchorable.RegionOffset>
+                            <uix:RegionOffset Position="Center" />
+                          </uix:TargetAnchorable.RegionOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Assignment'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="313747e0-85ad-4e89-8ba1-c45b0dbbff0a" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="2685778d-8b96-4e5b-b2d4-485b8cfc1808" ContentHash="_tzieCaczUKbjXZ_ncQhmA" DesignTimeRectangle="695, 547, 204, 36" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl ui5-class='sap.m.List' /&gt;&lt;webctrl ui5-tooltip='Assignment Reference' /&gt;" Guid="9586c668-fac7-451c-856a-bf74068186fe" InformativeScreenshot="03d408544d4ad82e1e92287ebd256926.png" Reference="A8W7ST2sRku1x2tN474ZNQ/Jxqw3aWWMEOhrFTlUna3bw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Clear G/L Accounts' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'comparison'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="313747e0-85ad-4e89-8ba1-c45b0dbbff0a" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="13a81c4b-d8f6-40c7-aa67-7785ca654366" ContentHash="Z-3GTjstOUezmzEN2eMMkg" CvElementArea="929, 298, 267, 34" CvType="InputBox" DesignTimeRectangle="929, 298, 267, 33" ElementType="DropDown" ElementVisibilityArgument="Interactive" Guid="7c949922-73d3-4ffd-9c50-fbe5dc1a5463" InformativeScreenshot="c164d26fcb828fb738a491d534a480d6.png" Reference="A8W7ST2sRku1x2tN474ZNQ/QhSHnGNyHUSszgg0Yima4w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Clear G/L Accounts' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="13a81c4b-d8f6-40c7-aa67-7785ca654366" CvElementArea="1216, 344, 20, 19" CvType="CloseButton" DesignTimeRectangle="1216, 344, 20, 20" Guid="1b9dc714-5bf2-45af-b582-fdf9622613df" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset X="116" />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'equal to'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="313747e0-85ad-4e89-8ba1-c45b0dbbff0a" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="83f85114-e4d6-44ca-ab44-89bf14c7a14c" ContentHash="EtLqoXhO_kaJEmgogLBzXA" CvTextArea="942, 417, 47, 16" CvTextArgument="equal to" CvType="Text" DesignTimeRectangle="942, 417, 47, 16" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl ui5-class='sap.m.List' /&gt;&lt;webctrl ui5-type='List Item' ui5p-title='equal to' /&gt;" Guid="193d492a-e6a5-4831-8adb-b147d99b35de" Reference="A8W7ST2sRku1x2tN474ZNQ/MB2EoToW3E2etfVGHoblTw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Clear G/L Accounts' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="26879af9-8716-4df7-ab57-31ec8b3a99bd" CvTextArea="942, 382, 48, 12" CvTextArgument="contains" CvType="Text" DesignTimeRectangle="942, 381, 48, 13" ElementType="ListItem" FullSelectorArgument="&lt;webctrl ui5-class='sap.m.List' /&gt;&lt;webctrl ui5-type='List Item' /&gt;" Guid="6d5bf495-dde5-4638-93c1-a757d0d061f6" SearchSteps="Selector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'AWB Field'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="313747e0-85ad-4e89-8ba1-c45b0dbbff0a" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="c9ab5c68-6d97-4ab0-9c6d-34b69b1a06df" ContentHash="jxf6wWOah0OlTdUbe_kNNg" CvElementArea="694, 337, 501, 34" CvType="InputBox" DesignTimeRectangle="694, 338, 500, 33" ElementType="InputBox" ElementVisibilityArgument="Interactive" Guid="40444776-f553-40e3-91d7-e46aeadea09f" InformativeScreenshot="3987731af9fe1932e4c922e937018c3f.png" Reference="A8W7ST2sRku1x2tN474ZNQ/48MrbZVlekaWLzwCqJ7pkA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Clear G/L Accounts' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="c9ab5c68-6d97-4ab0-9c6d-34b69b1a06df" CvElementArea="1215, 344, 20, 20" CvType="CloseButton" DesignTimeRectangle="1215, 344, 20, 20" Guid="901e78bb-ed87-48a2-bacb-f0aed49a3001" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DelayMS="60" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="416,158" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="v" KeyModifiers="Ctrl">
+                      <ui:SendHotkey.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="529a522d-626d-41a2-9dfc-72ebb12e97cd">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SendHotkey.Target>
+                    </ui:SendHotkey>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachFileX.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:ForEachFileX>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="h92V-nOmn0GStH2AK-pKZQ" IconBase64="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" InformativeScreenshot="616794ef56c596d98fb2bc723cbca56d.jpg" Reference="A8W7ST2sRku1x2tN474ZNQ/LFpviFjLoU2IYZvS-TsWYQ" Selector="&lt;html app='chrome.exe' title='Home' /&gt;" Url="https://dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT#Shell-home" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
   </Sequence>
 </Activity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z0mht-CumUiYseixJhizyQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="232ef294-b233-4ea8-a624-dc3fdecb9fd9" DesignTimeRectangle="51, 270, 346, 32" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='application-AccountingDocument-manageManualclearing-component---fullscreen--fin.gl.manualclearing.GlAccountList.SmartFilterBar-filterItemControl_BASIC-CompanyCode' /&gt;" Guid="580339cc-af43-4a8a-a56e-776050f2c0d2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Clear G/L Accounts' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b7b91f8f84059c11dd6090bcade5df4b.png" xmlns="">0Y5ttYyY2MkKmVJ3swAmMfQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "sap.esh.search.ui.contr…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "Rm-nFdkTdk-fFXnZSpTJPg",
+  "Reference": "A8W7ST2sRku1x2tN474ZNQ/Rm-nFdkTdk-fFXnZSpTJPg",
+  "ParentRef": "A8W7ST2sRku1x2tN474ZNQ/LFpviFjLoU2IYZvS-TsWYQ",
+  "Created": "2026-01-15T12:47:33.8371768Z",
+  "Updated": "2026-01-15T12:47:33.8371768Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

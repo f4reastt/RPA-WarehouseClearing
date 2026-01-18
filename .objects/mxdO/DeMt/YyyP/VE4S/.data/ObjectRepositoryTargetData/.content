@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="f5LR3XVp-EqyP0q7Ia8XrQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a1d9b44a-6ac8-48d3-be96-332ce4e0e0a1" CvElementArea="63, 114, 1862, 1023" CvTextArea="34, 107, 12, 14" CvTextArgument="1" CvType="InputBox" DesignTimeRectangle="10, 102, 1916, 1033" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Scintilla' title='Notepad++' /&gt;" Guid="3fc50227-8733-470c-93fc-8115e9e5eebb" ScopeSelectorArgument="&lt;wnd app='notepad++.exe' cls='Notepad++' title='new 2 - Notepad++' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c207006b6027333a2aaf8f8802d6c900.png" xmlns="">0WUKHhWSofUCVLEP6M1HrNg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

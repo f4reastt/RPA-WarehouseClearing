@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="g_BuwcYp60G-E-rWwtRF-Q" Reference="A8W7ST2sRku1x2tN474ZNQ/JE1faZlOe0uDTQvdw1pUJg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="2My1GgOx2kOCzIKTaU0ZiQ" Reference="A8W7ST2sRku1x2tN474ZNQ/JE1faZlOe0uDTQvdw1pUJg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
     <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mag-prod.launchpad.cfapps.ap11.hana.ondemand.com/site/PROD" CVScreenId="fbbbaf5d-07d7-48a3-b502-75abc6c52c0a" CvElementArea="1041, 755, 30, 27" CvType="Icon" DesignTimeRectangle="1042, 670, 29, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]' /&gt;&lt;webctrl sapweb-lsid='UpDownDialogChoose' /&gt;" Guid="ad48512c-e6ed-4c31-8e20-028556db3b64" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACEAAAAeCAYAAACiyHcXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIWSURBVFhH7ZY9SBthGMczuzh16mCE4lBQcBEXUdwKhWZxEClETFARxUGH2kJTiihBBKl1TBCpFzV+0GpEzaAmgpMQFEuFcBoxQfGDUxtMTPIvz1tO7t7L4IXDD8hvOd7nnrv3d//3veNMeAKY+MJjkJeQ0Uh4PB5YLBaYTP9PGXmMRCJwuVxsrEQjIQgCotEoXzYEum8wGOTLWgmHw8GXDMVsNvOlh5cQRZEvPbzE805i++Acb78uo7B+DAV1oyhtn4EnEEYqnbnr6fOGUPvJh8t4ko0zGaDfG8LrtmnsHFzc9eWUxOafE7xsFPCudwVb4VOIx1f4PL6FF+9/sEloMoKXmNoQYbZPsOuV6E6Cbkg3tg6tI3GbVvUJ62EU2SYQEs/YWClBE5MAifDoToKevNg+ibWdmKqHOL+6QWX3LwzMbrOxLEFSZR0zqpSU6E5ibnMfJa1eHJ39VfUQNEHD4CqavgXYmCTKO+dQ0fUTVR/mmWQ2dCdBEq+ap3B4eq3qIbJJ0Ka1DQdQ89EH+3BQs4SE7iTusxwji7/ZmCSqexYgxZPYi0pM/rtvl79MfxLxRApvvizp3piEYW8Hkesrmkyl0TKywTapcjl1JyGT7WNFT6rc/bwEcXGd0OyPnJIwmpyTMJJ8EjL3SoJ+7yRJ4suGQf+vPBoJv9/PGt1uN6xWq6FHp9OJWEz74dNIPAZ5CZknIfEP87lplAlvgNsAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
@@ -7,7 +7,7 @@
           <Target CVScreenId="fbbbaf5d-07d7-48a3-b502-75abc6c52c0a" DesignTimeRectangle="1079, 670, 53, 26" ElementType="Button" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]' /&gt;&lt;webctrl sapweb-lsid='UpDownDialogCancel' /&gt;" Guid="d5406f36-9f2e-403c-9c96-e1f3fe2e8478" SearchSteps="Selector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="abe34c49cb1f1cd49035d8ad48816830.png" xmlns="">071axZ3DRJk6oa4249DD5uw</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="0317afec399e232a895b9e7797a7f9bd.png" xmlns="">0F-4uooCkwEK8wHdI4M1rlA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

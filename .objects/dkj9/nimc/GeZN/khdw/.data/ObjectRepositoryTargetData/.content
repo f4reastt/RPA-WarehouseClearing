@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mmBBcV-Oa0WX_rxIpKY3FA" Reference="A8W7ST2sRku1x2tN474ZNQ/khdwu5YjqkGiPq2WOj9UZw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="dbea470c-2968-4d50-8de1-439ff6220ecd" DesignTimeRectangle="929, 407, 251, 36" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl ui5-class='sap.m.List' /&gt;&lt;webctrl ui5-type='List Item' ui5p-title='equal to' /&gt;" Guid="2ce76153-b141-4c09-8738-e9894d2298ec" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Clear G/L Accounts' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3156f6f2ab157069e8de5c221501c447.png" xmlns="">097RrKS0eYkaNDe3r7ptVZA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

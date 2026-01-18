@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="THBjwNsbRkqCVUYRJ4FBtA" Reference="A8W7ST2sRku1x2tN474ZNQ/YyyPuDgbtEKBtBWIZty4MA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, 1072, 1936, 1168" ContentHash="cZFFSuTc-kKOpVdUUGG--A" FilePath="C:\Program Files\Notepad++\notepad++.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASUSURBVFhHrZd7TBxVFIfv1vqPiaZpYpoQ6qNRMRqqEWuDWhFtNGmrjak1TfjP1EabNoq2YoO2wO48Fha2vN+00tgFeT+6AlaeBXS1SG0tocrDFtJqqFDKArvszs/cYWcyMywwi5zky7n3zHDOd2fYLBBCCGEY5g7Lsu68vLxGjuM8NLMs61JmjuPmFtsXFxc38TzvzMzMiqD9loryF7Y6op8K41RFhmGcAISxsdvo6emBnnxRyhfns8PhEFiWFZKTU3JVzRWRvCdqb+GWF4XUp0Pxxbr1M/IFnwDq6upoWjTb7XZVbmhoUO05jkdR0SnkZOfa09Mz71VNJ4SYE7M6jx6KET5//S1B9RQkARoer1daBhTuOQ94nofX64XNVoqMjMybFov1QWlGdlH57vziCoFNtHoPHDjiORyxY8MCgSvDowHRN/q3CrPZjLKyMlGCvpbs7JzJ/ILTj9MZKeyhFiPLeqNj4oUPDh+zyMMlAa8g4P+SlJQkSkhwHAeGYTzpxyMaz5qeEKyxkcKXn70rHPkkaqNKgD46QRBweWhkxVwdueUXp3MaVUkhuJS91ttuvU/4On5Tmmq4UoC+/9VmbKgJXScJxm3E22wxCE2J92zSzpcFtPYUh8Mhoq3rpbdiBwYLDejPI0KzheRoZ4ux2BOIi4tDcHCwCF1rry/H2F8t6DxJMGEzoC1ZFHhSO1sMSeDm+B2VPR0sPQG61p5uOX4u2+U7vQHNFlKonSuHJDA1O6U6gVZAe8Kl+PfGBVywEtz9dg09PRXYrJ0rhyQwPDaAG7eHZLQCUp2+DuV92j3FUb4TfxYY8EeBAaXmZ6CdqQqe50SBK6O9uOVslNEKKOva+5T7oeEMdNDTl64Rcxr/kT6B7sEODDjjZbQCUlb+Yir39fX14s/9VLtZPv3l2r3geKM+ge/77EsKKOva+6R13/WDvtMbxE/A+EinfoGq3lL8PvmejFZAqtOTK+9T7rvrHsW1AoLBQoIfvgkVv6g4c4I+gWJHAX6deEdGK6C85o9fhrejPYVgsoSgK5Wgqm2/KMCa4/UJZHVY0fbPbhmtgPKaP1pqH0Z/PsFQEUFLyQaxnyjALyPA+QQSzyf4FdAO8kfrwHa0phBMlBB0pxK0XgoX+wUk8NW5o6i+vnNF1FRvRB89/SkC+5n1Yo32o8HwcfoEois/RNG1NwLmzNVtOG8xYLyE4Mc0gpLuZ8U67UfDqFdgvy0Kyb+9FjC2yq3ozg5CT+ZaVOStk+u0H40ETqfAvtNvI9axLWC+K38f/U3H0JW3BRnnwuQ67Ucjnl1OgJsX2JUbiYPt4QETa3kVLTUfI7/yTVWd9gtIICL9+QXNl6UtHC9FPoSY6lfwafPLqmu0X0ACYZYQ7Kl9bmXULKzRfjTi9AqEMEGIPBu6atB+NE4wJ/QJBB2/H4+kPLZq0H6igEmnwAMxZNURP4amZb4NJYG7rim/TLmccLqnMS0ygxkXZRazbhdcbhfcbjfcc3OY8+HxeERoTxomk2lpAfpfTIIxAUaTEUaTycf8mmEYmBhGzBQqS6F/xumBDl9K4D/6+04xHCOX+AAAAABJRU5ErkJggg==" Reference="A8W7ST2sRku1x2tN474ZNQ/YyyPuDgbtEKBtBWIZty4MA" Selector="&lt;wnd app='notepad++.exe' cls='Notepad++' title='new 2 - Notepad++' /&gt;" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="3ff203c25961db584cd1479d78c014c8.png" xmlns="">0oL7MrEz03kud-67VmwbHxw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

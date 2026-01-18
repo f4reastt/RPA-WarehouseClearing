@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BR6NXVhpOkS7mF2EHBbPEQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="46f9cad0-219d-42a2-b6b9-286d2f421627" CvElementArea="59, 136, 37, 37" CvType="Button" DesignTimeRectangle="1845, 137, 37, 35" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="13474edd-f844-4000-ad4a-3fbb0fb3d342" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Interface Tool - Generic Upload Program' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="8, 129, 1920, 52" ElementType="Container" FullSelectorArgument="&lt;webctrl id='shell-header' /&gt;" Guid="846d1da0-bde3-40a7-96fa-bc028dd2a480" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f68b1bdc3204f50d3e54d5f0e68af2dd.png" xmlns="">0d2kmD-ryfUeuXvUB8wg1jQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

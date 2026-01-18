@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AKPF-FjpYk2wC0kZqrYHtw" Reference="A8W7ST2sRku1x2tN474ZNQ/KMjIKPyrpEusQviy7ZciNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="f0f0e280-8bd9-42cd-92f1-c3abf676c54b" CvType="Icon" DesignTimeRectangle="1128, 539, 14, 22" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='application-AccountingDocument-manageManualclearing-component---GlClearing--gl.openItemsSmartTable-btnPersonalisation-img' /&gt;" Guid="43617d87-bc26-4a8e-a98c-94eaed6c79a8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAAaCAYAAAC6nQw6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADOSURBVEhLY/hPJcCALkAuGDWIMMBr0LS5S//L6tqBcUFVK7o0CsBp0MtXb/5buIWCDdt94CiYDRLDBVAMAtkKcwEIq5m6/b909QbcUGS50MS8/1++fsM0CKQBpBGmEN0FIE0gzciGgVwKA3CDQF5A14wrjGCGIothuAhmGMg2dK+BDEZ2GVYXgQCyZpAm5HAA2Q7CMEORDQEBnAbhchFBg9C9BgLYwoig17AFNi5AVGBTHP0gQJUEiQ4oyiLoAFtg4wJ4DSIFjBpEGFDNIADlh4C5F2ExVgAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Clear G/L Accounts' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9807336c-c439-4b9c-acd7-773847fb4e7f" DesignTimeRectangle="1048, 536, 65, 28" ElementType="Button" FullSelectorArgument="&lt;webctrl id='application-AccountingDocument-manageManualclearing-component---GlClearing--gl.activateAllButton' /&gt;" Guid="8849cf39-ac89-40d6-9781-4f58af34665f" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="89ccdc8683ab081a65acf6364aabbd6d.png" xmlns="">0s3izVpmnckmOP61mJgA9ag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

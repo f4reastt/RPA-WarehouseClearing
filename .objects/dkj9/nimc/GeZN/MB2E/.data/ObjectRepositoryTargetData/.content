@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EtLqoXhO_kaJEmgogLBzXA" Reference="A8W7ST2sRku1x2tN474ZNQ/MB2EoToW3E2etfVGHoblTw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="83f85114-e4d6-44ca-ab44-89bf14c7a14c" CvTextArea="942, 417, 47, 16" CvTextArgument="equal to" CvType="Text" DesignTimeRectangle="942, 417, 47, 16" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl ui5-class='sap.m.List' /&gt;&lt;webctrl ui5-type='List Item' ui5p-title='equal to' /&gt;" Guid="193d492a-e6a5-4831-8adb-b147d99b35de" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Clear G/L Accounts' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="26879af9-8716-4df7-ab57-31ec8b3a99bd" CvTextArea="942, 382, 48, 12" CvTextArgument="contains" CvType="Text" DesignTimeRectangle="942, 381, 48, 13" ElementType="ListItem" FullSelectorArgument="&lt;webctrl ui5-class='sap.m.List' /&gt;&lt;webctrl ui5-type='List Item' /&gt;" Guid="6d5bf495-dde5-4638-93c1-a757d0d061f6" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

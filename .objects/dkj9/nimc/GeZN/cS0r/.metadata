@@ -1,0 +1,14 @@
+﻿{
+  "Name": "sap.ui.core.Icon __butt…",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "cS0robvGHka3YyPpBZEYmA",
+  "Reference": "A8W7ST2sRku1x2tN474ZNQ/cS0robvGHka3YyPpBZEYmA",
+  "ParentRef": "A8W7ST2sRku1x2tN474ZNQ/GeZNWUzjKESDhDEut0n7-A",
+  "Created": "2026-01-17T09:15:21.6793445Z",
+  "Updated": "2026-01-17T09:15:21.6793445Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

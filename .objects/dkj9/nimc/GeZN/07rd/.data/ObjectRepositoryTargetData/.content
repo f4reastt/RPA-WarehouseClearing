@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RZcTFs6pt0OrnQDuwdMeXA" Reference="A8W7ST2sRku1x2tN474ZNQ/07rdNWhS-0yAuTP94doRIQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dev-wg3tki5t.launchpad.cfapps.ap11.hana.ondemand.com/site/MAG-UAT" CVScreenId="19cb157e-2b3e-4b0b-a3a3-f89f5a0f8ac4" CvElementArea="694, 329, 219, 33" CvType="InputBox" DesignTimeRectangle="694, 297, 220, 36" ElementType="DropDown" ElementVisibilityArgument="Interactive" Guid="03b478c2-75e6-4724-85fa-768cab9bf536" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Clear G/L Accounts' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c4a46595-da37-4e2e-9611-d513a1320416" CvElementArea="1216, 344, 20, 19" CvType="CloseButton" DesignTimeRectangle="1216, 344, 20, 20" Guid="30caa148-adfe-4683-9a12-a266ad83be47" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e16a4929dd189adae7bc321cc4fc5db1.png" xmlns="">0kplmB_DFEUilHSooD_Xtmw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

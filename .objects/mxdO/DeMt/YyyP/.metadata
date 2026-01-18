@@ -1,0 +1,13 @@
+﻿{
+  "Name": "new 2 - Notepad++",
+  "Type": "Screen",
+  "Id": "YyyPuDgbtEKBtBWIZty4MA",
+  "Reference": "A8W7ST2sRku1x2tN474ZNQ/YyyPuDgbtEKBtBWIZty4MA",
+  "ParentRef": "A8W7ST2sRku1x2tN474ZNQ/DeMt5C83rku1AbYn607_Tw",
+  "Created": "2026-01-17T08:25:18.1307271Z",
+  "Updated": "2026-01-17T08:25:18.1307271Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

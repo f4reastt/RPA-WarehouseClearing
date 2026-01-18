@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Clear GL AccountsManua…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "f8g5FxAMfUie9mtL2OtItQ",
+  "Reference": "A8W7ST2sRku1x2tN474ZNQ/f8g5FxAMfUie9mtL2OtItQ",
+  "ParentRef": "A8W7ST2sRku1x2tN474ZNQ/LFpviFjLoU2IYZvS-TsWYQ",
+  "Created": "2026-01-15T12:48:37.7325045Z",
+  "Updated": "2026-01-15T12:48:37.7325045Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
